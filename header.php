@@ -15,7 +15,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="//use.typekit.net/oax2hcp.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 <?php wp_head(); ?>
 </head>
@@ -44,10 +45,15 @@
 */ ?>
 
     <div class="navbar-wrapper">
+        <div id="georgetown-bar">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/georgetown.png" />
+        </div>
+
       <div class="container">
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container">
+            </div>
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
