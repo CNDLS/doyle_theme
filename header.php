@@ -44,24 +44,26 @@
 
 */ ?>
 
+<div id="page">
+
     <div class="navbar-wrapper">
-        <div id="georgetown-bar">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/georgetown.png" />
-        </div>
 
       <div class="container">
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-          <div class="container">
+        <div id="georgetown-bar">
+            <div class="container">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/georgetown.png" />
             </div>
+        </div>
+          <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Designing the Future(s)<br />
-              of the University</a>
+              <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Future(s)</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav pull-right">

@@ -36,7 +36,7 @@ get_header(); ?>
                         <div class="carousel-caption">
                           <h1>Designing the Future(s) of the University</h1>
                           <p>Georgetown University has launched an integrative initiative that engages the whole Georgetown community in an exploration of issues facing higher education and actively experiments with new ways to deliver the education we value into the future.</p>
-                          <p><a href="#">Learn more &gt;</a></p>
+                          <p><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &gt;</a></p>
                         </div>
                       </div>
                     </div>
@@ -71,15 +71,17 @@ get_header(); ?>
     <div class="row" id="gradient">
     </div>
 
-    <div class="container">
+    <div class="container" id="events-tier">
         <div class="row">
             <div class="col-md-12">
                 <h2>Events</h2>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/bigbox.png" />
             </div>
         </div>
+    </div>
 
-        <div class="row" id="recent-tier">
+    <div class="container" id="recent-tier">
+        <div class="row">
             <div class="col-md-12">
                 <h2>Recent</h2>
             </div>

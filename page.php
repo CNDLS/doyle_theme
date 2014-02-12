@@ -12,6 +12,19 @@
 
 get_header(); ?>
 
+<div id="page-header">
+    <div class="outer">
+        <div class="scrim">
+        </div>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="page-title container">
+            <h1 class="entry-title"><?php the_title(); ?></h1>
+        </div>
+    </div>
+</div>
+
 	<div class="container">
 	    <div class="col-md-4"><?php the_meta(); ?>
 	    </div>

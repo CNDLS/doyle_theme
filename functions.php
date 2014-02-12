@@ -79,7 +79,7 @@ add_action( 'widgets_init', 'futures_widgets_init' );
  * Enqueue scripts and styles.
  */
 function futures_scripts() {
-	wp_enqueue_style( 'futures-style', get_stylesheet_uri() );
+	#wp_enqueue_style( 'futures-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'futures-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 

@@ -3,9 +3,13 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 55px;
+  padding-top: 45px;
   color: #5a5a5a;
-  backround: #002147;
+  background: #002147;
+}
+
+#page {
+    background: #fff;
 }
 
 h1, h2, h3, h4 {
@@ -15,12 +19,15 @@ h1, h2, h3, h4 {
 
 h2, h3 {
     font-size: 14px;
+    font-weight: normal;
 }
 
 h2 {
     padding-bottom: 5px;
     border-bottom: 2px solid #ccc;
     letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
 h4 {
@@ -50,6 +57,30 @@ h4 {
     text-align: right;
 }
 
+#page-header {
+    background: url('../img/keybridge.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    z-index: 998;
+}
+
+.page-title h1 {
+    color: #fff;
+    z-index: 1000;
+    font-size: 48px;
+    margin-top: 110px;
+}
+
+#main {
+    z-index: 1000;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -68,9 +99,8 @@ h4 {
 }
 
 .navbar-brand {
-    font-family: 'Adobe Caslon Pro';
     font-weight: bold;
-    font-style: italic;
+    letter-spacing: 2px;
     color: #333;
 }
 
@@ -79,6 +109,7 @@ h4 {
     color: #666;
 }
 
+/*
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: #fff;
 }
@@ -86,6 +117,7 @@ h4 {
 .navbar li {
     padding-top: 17px;
 }
+*/
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -115,13 +147,17 @@ h4 {
   right: 25%;
 }
 
+.carousel-caption p {
+    font-weight: 300;
+}
+
 .carousel-indicators, .carousel-control {
     z-index: 999;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 600px;
   background-color: #333;
   background: url('../img/slide1.jpg');
     /* background-size: cover; */
