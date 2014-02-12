@@ -67,18 +67,22 @@ get_header(); ?>
 
         </div>
     </div>
-    
+
+<!--
     <div class="row" id="gradient">
     </div>
+-->
 
-    <div class="container" id="events-tier">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Events</h2>
-                <img src="<?php echo get_template_directory_uri(); ?>/img/bigbox.png" />
+    <div id="events-tier">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Events</h2>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/bigbox.png" />
+                </div>
             </div>
-        </div>
-    </div>
+        </div><!-- /.container -->
+    </div><!-- /#events-tier -->
 
     <div class="container" id="recent-tier">
         <div class="row">
