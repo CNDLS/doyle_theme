@@ -44,6 +44,7 @@ h4 {
 #events-tier {
     background: url('../img/seal_banner.png') no-repeat #e6e6e6;
     min-height: 200px;
+    border-bottom: 5px solid #6caddf;
 }
 
 #recent-tier {
@@ -132,6 +133,9 @@ h4 {
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
+#carousel-wrapper {
+    position: relative;
+}
 
 .scrim {
     position: absolute;
