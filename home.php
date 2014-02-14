@@ -13,7 +13,6 @@
 
 get_header(); ?>
 
-    <div class="row">
         <div class="col-md-12" id="wrapper_slider">
 
             <div class="outer">
@@ -63,10 +62,9 @@ get_header(); ?>
                   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div><!-- /.carousel -->
 
-            </div>
+            </div><!-- /.outer -->
 
-        </div>
-    </div>
+        </div><!-- /.col-md-12 -->
 
 <!--
     <div class="row" id="gradient">
