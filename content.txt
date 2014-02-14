@@ -1,0 +1,170 @@
+<div class="container">
+
+    <div class="col-md-4">
+
+        <blockquote>
+        <p>There has not been a moment more full of promise for higher education than the present; the significance of this moment for Georgetown is tremendous as we seek to meet the urgent challenges before us with innovative strategy and the extraordinary resources of our community.</p>
+        <footer>President John J. DeGioia</footer>
+        </blockquote>
+
+    </div>
+
+    <div class="col-md-8">
+        <p class="lead">How could we design a university for the future that would have liberal education values at its center but be appropriate for the world of 2030 and beyond?  What kind of student-centered university is possible right now that we could we only create at this moment?</p>
+
+        <h4>Why are we doing this now?</h4>
+
+        The forces enacting change upon higher education have been building. In a landscape shifted by globalization and technology, we face urgent questions of cost and value, quality, flexibility and relevance. 
+
+        Rather than responding to these disruptions by narrowly focusing on preserving who we are, we must act with purpose and vision -- we must treat our future as a challenge of design, creativity and imagination.
+
+        <h2>What if we…</h2>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <h3>rethink traditional boundaries of our model?</h3>
+
+                <ul class="list-unstyled">
+                    <li>time and pace to a degree</li>
+                    <li>the 15 week semester</li>
+                    <li>the 9 month academic calendar</li>
+                    <li>the credit hour</li>
+                    <li>online and blended education</li>
+                    <li>competency-based learning</li>
+                    <li>self-paced learning</li>
+                    <li>unbundled credits</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h3>rethink core practices?</h3>
+
+                <ul class="list-unstyled">
+                    <li>changing skills and knowledge</li>
+                    <li>integrate our educational and research missions</li>
+                    <li>experiential learning and mentored inquiry</li>
+                    <li>develop partnerships to enrich our city</li>
+                    <li>Georgetown as a global university</li>
+                    <li>engage our alumni through continuing education opportunities</li>
+                </ul>
+            </div><!-- /.col-md-6 -->
+
+        </div><!-- /.row -->
+
+        <h2>Why Georgetown?</h2>
+
+        The work of the initiative – the discussions, the experiments – builds upon a 225-year tradition of excellence and innovation in teaching and learning. 
+
+        In this new framework, we can better foster scholarship at the frontiers between disciplines.
+
+        We can make higher education more accessible. 
+
+        We can enrich our classrooms, and give our faculty the opportunity to share their expertise more broadly.   
+
+        We can make a distinct contributions in determining how institutions of higher learning can meet the challenges and maximize the opportunities of this unique moment.
+
+        <h2>Building a Vision: An Overview</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Exploration of issues facing our colleges and universities with higher education thought leaders.</h3>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Engagement of the whole Georgetown community in asking fundamental questions</h3>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Experimentation with new ways to deliver a Georgetown education</h3>
+            </div>
+        </div><!-- /.row -->
+
+    </div><!-- /.col-md-8 -->
+
+</div><!-- /.container -->
+
+--- events ---
+
+<div class="container">
+
+    <div class="col-md-4">
+        <blockquote>
+            <p>I believe it is urgent and important that we recognize the…mutually reinforcing elements of formation, scholarship and a commitment to the common good—this is the work of the university.</p>
+        <footer>President John. J. DeGioia</footer>
+        </blockquote>
+    </div>
+
+    <div class="col-md-8">
+
+        <div class="row">
+
+            <div class="col-md-6">
+            <h2>Launch</h2>
+            <p>President John J. DeGioia and Provost Robert M. Groves frame the Designing the Future(s) of the University Initiative.</p>
+            <p>Fisher Colloquium, November 20, 2013</p>
+            </div>
+
+            <div class="col-md-6">
+            <h2>Discussion with Susan Hockfield</h2>
+            <p>Former President of MIT and advocate for research support&mdash;and Georgetown alumna (GUMC ’79)&mdash;speaks on collaboration and experimentation with new educational methods.</p>
+            <p>Lohrfink Auditorium, January 30, 2014</p>
+            </div>
+
+        </div><!-- /.row -->
+        
+        <div class="row">
+        
+            <div class="col-md-6">
+                <h2>Discussion with Ted Mitchell</h2>
+                <p>Innovator of public schools leading the NewSchools Venture Fund and Undersecretary in the Department of Education to speak at Georgetown.</p>
+                <p>March 3, 2014, Fisher Colloquium</p>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Skillhack: 2nd Annual Hackathon</h2>
+                <p>How can we bridge the spheres of academia and the workplace? Teams of students will take on the challenge of designing a more connected platform to gain practical skills during their years on campus.</p>
+                <p>February 15, 2014, Fisher Colloquium</p>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6">
+<h2>SXSW</h2>
+<p>Georgetown brings the Future(s) Project to SXSWedu in Austin, TX</p>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Designing the Future of the University from the Inside</h2>
+
+<p>
+Wednesday, March 5 
+1:30PM - 2:30PM 
+Hilton Austin Downtown Room 400/402 
+500 East 4th Street 
+</p>
+            </div>
+
+        </div><!-- /.row -->
+
+        <div class="row">
+
+            <div class="col-md-6">
+<h2>Discussion with Jonathan Cole</h2>
+<p>Former Provost of Columbia University, author of “The Great American University.”</p>
+<p>April 1, 2014</p>
+            </div>
+ 
+            <div class="col-md-6">
+<h2>Discussion with Steven Kosslyn</h2>
+<p>Behavioral Psychologist, Cognitive Scientist, Founding Dean of Faculty of the Minerva Project</p>
+<p>May 5, 2014</p>
+            </div>
+
+        </div><!-- /.row -->
+
+    </div>
+
+</div><!-- /.container -->
