@@ -21,6 +21,10 @@ h1, h2, h3, h4 {
     font-family: 'proxima-nova', sans-serif;
 }
 
+h1 {
+  letter-spacing:3px;
+}
+
 h2 {
     font-size: 18px;
     letter-spacing: 1px;
@@ -45,7 +49,7 @@ em { font-style: italic }
 strong { font-weight: 600; color: #000; }
 small { font-size: 80% }
 hr { border: solid #eee; border-width: 1px 0 0; clear: both; height: 0; margin: 40px 0; }
-blockquote p { font-size: 1.4em; line-height: 1.75em; margin-bottom: 30px; position: relative; font-family: 'Adobe Caslon Pro'; color:  #666; background: url("quote.png") left 4px no-repeat; }
+blockquote p { font-size: 1.25em; font-style:italic; line-height: 1.75em; margin-bottom: 30px; position: relative; font-family: 'Adobe Caslon Pro'; color:  #666; background: url("quote.png") left 4px no-repeat; }
 blockquote { border: 0; padding-left: 0; }
 
 #footer {
