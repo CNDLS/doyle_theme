@@ -15,7 +15,6 @@ body a { color: #6caddf; text-decoration: none; }
 }
 
 h1, h2, h3, h4 {
-    text-transform: uppercase;
     font-weight: 600;
     line-height: 1.4em;
     font-family: 'proxima-nova', sans-serif;
@@ -23,11 +22,13 @@ h1, h2, h3, h4 {
 
 h1 {
   letter-spacing:3px;
+  text-transform: uppercase;
 }
 
 h2 {
     font-size: 22px;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 #recent-tier h2 {
@@ -36,21 +37,23 @@ h2 {
     margin-bottom: 20px;
 }
 
-h3 { font-size: 18px; padding-top: 10px; color: #6CADDF}
+h3 { font-size: 18px; padding-top: 10px;}
 h4 { font-size: 16px; }
-h5 { font-size: 12px; }
+h5 { font-size: 14px; }
 h6 { font-size: 10px; }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { color: #6caddf; text-decoration: none; }
 
-p {font-size: 16px}
-p.lead { color: #444; font-size: 24px; line-height: 32px; }
+p {font-size: 18px; line-height: 1.75em;}
+p.lead {color: #444; font-size: 24px; line-height: 32px; }
+p.quote {padding-right: 20px}
+p.short {font-size: 14px;}
 
 em { font-style: italic }
 strong { font-weight: 600; color: #000; }
 small { font-size: 80% }
 hr { border: solid #eee; border-width: 1px 0 0; clear: both; height: 0; margin: 40px 0; }
-blockquote p { font-size: 1.25em; font-weight:600; font-style:italic; line-height: 1.75em; margin-bottom: 30px; position: relative; font-family: 'Adobe Caslon Pro'; color:  #666; left: 4px no-repeat; }
+blockquote p { font-size: 1.25em; font-style:italic; line-height: 1.75em; margin-bottom: 30px; margin-right: 20px; position: relative; font-family: 'Adobe Caslon Pro'; color:  #666; left: 4px no-repeat; }
 blockquote { border: 0; padding-left: 0; }
 
 #footer {
