@@ -87,30 +87,30 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
-                <h3>Speaker Series</h3>
+                <h3>Announcing the Initiative</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h4><a href="#">Read more &gt;</a></h4>
+                <h4><a href="http://www.georgetown.edu/president/messages/announcing-designing-the-futures.html">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
                 <h3>Georgetown at SxSW</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h4><a href="#">Read more &gt;</a></h4>
+                <h4><a href="http://sxsw.georgetown.edu/">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
-                <h3>Experiments</h3>
+                <h3>Speaker series</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h4><a href="#">Read more &gt;</a></h4>
+                <h4><a href="http://www.georgetown.edu/news/designing-the-futures-of-university-degioia-event.html">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
                 <h3>From the Blog</h3>
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h4><a href="#">Read more &gt;</a></h4>
+                <h4><a href="/news/">Read more</a></h4>
             </div>
         </div>
     </div>

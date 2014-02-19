@@ -171,7 +171,7 @@ blockquote { border: 0; padding-left: 0; }
     right: 0;
     z-index: 997;
     pointer-events: none;
-    background: url('../img/scrim2.png');
+    background: url('../img/scrim.png');
 }
 
 /* Carousel base class */
