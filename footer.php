@@ -26,11 +26,6 @@
 
     <div id="footer">
         <div class="container">
-            <p>
-            Georgetown University<br />
-            37th and O Streets, N.W.<br />
-            Washington D.C. 20057<br />
-            (202) 687-0100</p>
         </div>
     </div>
 
