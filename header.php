@@ -67,7 +67,7 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav pull-right">
-                <li class="active"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">News</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">Events</a></li>
