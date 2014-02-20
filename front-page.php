@@ -39,7 +39,7 @@ get_header(); ?>
         <div class="item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide2.jpg');">
           <div class="container">
             <div class="carousel-caption">
-              <h1>The Framework</h1>
+              <h1>Kicking off the Initiative</h1>
               <p>Georgetown’s President and Provost lay the foundation at the Initiative’s launch by highlighting three “interlocking and mutually reinforcing” elements that are vital to the life of the University.</p>
               <p><a class="btn btn-large btn-primary" href="http://www.georgetown.edu/news/designing-the-futures-of-university-degioia-event.html">Learn more</a></p>
             </div>
@@ -86,8 +86,8 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
-                <h3>Announcement</h3>
-                <p>President DeGioia announces the Initiative in November 2013, calling for our whole community to join the conversation.</p>
+                <h3>Announcing the Initiative</h3>
+                <p>Read President DeGioia’s announcement inviting our whole community to join the conversation.</p>
                 <h4><a href="http://www.georgetown.edu/president/messages/announcing-designing-the-futures.html">Read more</a></h4>
             </div>
 
