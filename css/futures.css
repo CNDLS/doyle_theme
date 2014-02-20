@@ -108,6 +108,10 @@ blockquote { border: 0; padding-left: 0; }
     font-weight: 600;
 }
 
+span.screen-reader-text {
+    display: none;
+}
+
 /* unused
 #main {
     z-index: 1000;

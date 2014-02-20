@@ -19,7 +19,7 @@
 					<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
 				</ul>
 			</aside>
-
+<?php /*
 			<aside id="meta" class="widget">
 				<h3 class="widget-title"><?php _e( 'Meta', 'futures' ); ?></h3>
 				<ul class="list-unstyled">
@@ -28,6 +28,6 @@
 					<?php wp_meta(); ?>
 				</ul>
 			</aside>
-
+*/ ?>
 		<?php endif; // end sidebar widget area ?>
 	</div><!-- #secondary -->
