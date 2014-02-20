@@ -39,7 +39,7 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
+			<header>
 				<h2 class="page-title">
 					<?php
 						if ( is_category() ) :
