@@ -85,31 +85,31 @@ get_header(); ?>
 
         <div class="row">
             <div class="col-md-3">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/healy.jpg" />
                 <h3>Announcing the Initiative</h3>
-                <p>Read President DeGioia’s announcement inviting our whole community to join the conversation.</p>
+                <p class="short">Read President DeGioia’s announcement inviting our whole community to join the conversation.</p>
                 <h4><a href="http://www.georgetown.edu/president/messages/announcing-designing-the-futures.html">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/hockfield.jpg" />
                 <h3>Speaker Series</h3>
-                <p>Susan Hockfield, former President of MIT, and President DeGioia discuss what we should innovate, adjust&mdash;and fiercely preserve&mdash;in higher education today.</p>
+                <p class="short">Susan Hockfield, former President of MIT, and President DeGioia discuss what we should innovate, adjust&mdash;and fiercely preserve&mdash;in higher education today.</p>
                 <h4><a href="http://www.georgetown.edu/designing-the-futures-of-the-university/speakers-series/hockfield/">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/sxswedu.png" />
                 <h3>Georgetown at SXSW</h3>
-                <p>Georgetown takes Designing the Future(s) to the iconic culture and technology festival in Austin, TX with events beginning March 5.</p>
+                <p class="short">Georgetown takes Designing the Future(s) to the iconic culture and technology festival in Austin, TX with events beginning March 5.</p>
                 <h4><a href="http://sxsw.georgetown.edu/">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
+                <img src="<?php echo get_template_directory_uri(); ?>/img/blog.jpg" />
                 <h3>From the Blog</h3>
-                <p>Check the pulse: news, stories, thoughts and connections from our thought leaders.</p>
-                <h4><a href="/news/">Read more</a></h4>
+                <p class="short">Check the pulse: news, stories, thoughts and connections from our thought leaders.</p>
+                <h4><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">Read more</a></h4>
             </div>
         </div>
     </div>
