@@ -45,7 +45,7 @@ get_header(); ?>
             </div>
           </div>
         </div>
-        <div class="item">
+        <div class="item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide3.jpg');">
           <div class="container">
             <div class="carousel-caption">
               <h1>Skillhack: 2nd Georgetown Hackathon</h1>
