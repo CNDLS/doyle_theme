@@ -27,7 +27,7 @@ get_header(); ?>
       </ol>
 
       <div class="carousel-inner">
-        <div class="item active">
+        <div class="item active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide1.jpg');">
           <div class="container">
             <div class="carousel-caption">
               <h1>Designing the Future(s) of the University</h1>
@@ -36,7 +36,7 @@ get_header(); ?>
             </div>
           </div>
         </div>
-        <div class="item">
+        <div class="item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide2.jpg');">
           <div class="container">
             <div class="carousel-caption">
               <h1>The Framework</h1>
