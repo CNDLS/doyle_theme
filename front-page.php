@@ -27,31 +27,30 @@ get_header(); ?>
       </ol>
 
       <div class="carousel-inner">
-        <div class="item active">
-          <!-- <img src="img/slide1.jpg" alt="First slide"> -->
+        <div class="item active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide1.jpg');">
           <div class="container">
             <div class="carousel-caption">
               <h1>Designing the Future(s) of the University</h1>
               <p>Georgetown University has launched an integrative initiative that engages the whole Georgetown community in an exploration of issues facing higher education and actively experiments with new ways to deliver the education we value into the future.</p>
-              <p><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &gt;</a></p>
+              <p><a class="btn btn-large btn-primary" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &gt;</a></p>
             </div>
           </div>
         </div>
-        <div class="item">
+        <div class="item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide2.jpg');">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+              <h1>The Framework</h1>
+              <p>Georgetown’s President and Provost lay the foundation at the Initiative’s launch by highlighting three “interlocking and mutually reinforcing” elements that are vital to the life of the University.</p>
+              <p><a class="btn btn-large btn-primary" href="http://www.georgetown.edu/news/designing-the-futures-of-university-degioia-event.html">Learn more</a></p>
             </div>
           </div>
         </div>
-        <div class="item">
+        <div class="item" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide3.jpg');">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+              <h1>Skillhack: 2nd Georgetown Hackathon</h1>
+              <p>A one-day event where teams of students tackled the Provost’s Challenge: How can universities bridge boundaries of the curriculum and the workplace?</p>
+              <p><a class="btn btn-large btn-primary" href="http://hack.georgetown.edu/">hack.georgetown.edu</a></p>
             </div>
           </div>
         </div>
@@ -87,29 +86,29 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
-                <h3>Announcing the Initiative</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Announcement</h3>
+                <p>President DeGioia announces the Initiative in November 2013, calling for our whole community to join the conversation.</p>
                 <h4><a href="http://www.georgetown.edu/president/messages/announcing-designing-the-futures.html">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
-                <h3>Georgetown at SxSW</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>Speaker Series</h3>
+                <p>Susan Hockfield, former President of MIT, and President DeGioia discuss what we should innovate, adjust&mdash;and fiercely preserve&mdash;in higher education today.</p>
+                <h4><a href="http://www.georgetown.edu/designing-the-futures-of-the-university/speakers-series/hockfield/">Read more</a></h4>
+            </div>
+
+            <div class="col-md-3">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
+                <h3>Georgetown at SXSW</h3>
+                <p>Georgetown takes Designing the Future(s) to the iconic culture and technology festival in Austin, TX with events beginning March 5.</p>
                 <h4><a href="http://sxsw.georgetown.edu/">Read more</a></h4>
             </div>
 
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
-                <h3>Speaker series</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <h4><a href="http://www.georgetown.edu/news/designing-the-futures-of-university-degioia-event.html">Read more</a></h4>
-            </div>
-
-            <div class="col-md-3">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
                 <h3>From the Blog</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Check the pulse: news, stories, thoughts and connections from our thought leaders.</p>
                 <h4><a href="/news/">Read more</a></h4>
             </div>
         </div>

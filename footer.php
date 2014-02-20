@@ -26,11 +26,6 @@
 
     <div id="footer">
         <div class="container">
-            <p>
-            Georgetown University<br />
-            37th and O Streets, N.W.<br />
-            Washington D.C. 20057<br />
-            (202) 687-0100</p>
         </div>
     </div>
 
@@ -38,6 +33,7 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function() {
