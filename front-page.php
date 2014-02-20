@@ -32,7 +32,7 @@ get_header(); ?>
             <div class="carousel-caption">
               <h1>Designing the Future(s) of the University</h1>
               <p>Georgetown University has launched an integrative initiative that engages the whole Georgetown community in an exploration of issues facing higher education and actively experiments with new ways to deliver the education we value into the future.</p>
-              <p><a class="btn btn-large btn-primary" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &gt;</a></p>
+              <p><a class="btn btn-large btn-primary" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more</a></p>
             </div>
           </div>
         </div>
