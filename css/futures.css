@@ -118,6 +118,14 @@ span.screen-reader-text {
 }
 */
 
+/* BLOGS
+-------------------------------------------------- */
+
+.byline,
+.updated {
+	display: none;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
