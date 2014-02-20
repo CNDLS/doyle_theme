@@ -28,21 +28,20 @@ get_header(); ?>
 
       <div class="carousel-inner">
         <div class="item active">
-          <!-- <img src="img/slide1.jpg" alt="First slide"> -->
           <div class="container">
             <div class="carousel-caption">
               <h1>Designing the Future(s) of the University</h1>
               <p>Georgetown University has launched an integrative initiative that engages the whole Georgetown community in an exploration of issues facing higher education and actively experiments with new ways to deliver the education we value into the future.</p>
-              <p><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &gt;</a></p>
+              <p><a class="btn btn-large btn-primary" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &gt;</a></p>
             </div>
           </div>
         </div>
         <div class="item">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+              <h1>The Framework</h1>
+              <p>Georgetown’s President and Provost lay the foundation at the Initiative’s launch by highlighting three “interlocking and mutually reinforcing” elements that are vital to the life of the University.</p>
+              <p><a class="btn btn-large btn-primary" href="http://www.georgetown.edu/news/designing-the-futures-of-university-degioia-event.html">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -102,7 +101,7 @@ get_header(); ?>
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/grey-box.png" />
                 <h3>Georgetown at SXSW</h3>
-                <p>Georgetown takes Designing the Future(s) to the iconic culture and technology Festival in Austin, TX  with events beginning March 5.</p>
+                <p>Georgetown takes Designing the Future(s) to the iconic culture and technology festival in Austin, TX with events beginning March 5.</p>
                 <h4><a href="http://sxsw.georgetown.edu/">Read more</a></h4>
             </div>
 
