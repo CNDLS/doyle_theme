@@ -6,10 +6,10 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h2 class="entry-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
-			<?php futures_posted_on(); ?>
+			<p><small class="text-muted"><?php futures_posted_on(); ?></small></p>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 

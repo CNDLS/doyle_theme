@@ -126,6 +126,10 @@ span.screen-reader-text {
 	display: none;
 }
 
+code {
+    white-space: normal;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
