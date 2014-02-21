@@ -311,6 +311,11 @@ code {
     
     h1.entry-title {
         font-size: 30px;
+        line-height: 1em;
+    }
+    
+    ul.pull-right {
+        float: left!important;
     }
 }
 
