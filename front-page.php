@@ -68,59 +68,37 @@ get_header(); ?>
 
     <div id="events-tier">
         <div class="container">
+            <p class="lead">Join our mailing list to stay posted on news about Designing the Future(s)</p>
+            <form action="https://docs.google.com/a/georgetown.edu/forms/d/1Q84Ky3B3eYDPwINIWSNB30W1fFxaEbppmi5_PmlEn7I/formResponse?embedded=true" method="POST" id="ss-form" class="form-inline" role="form" target="_self" onsubmit="">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-3">
+                    <input type="text" name="entry.1745113422" value="" class="ss-q-short form-control" placeholder="First name" id="entry_1745113422" dir="auto" aria-label="First Name  " aria-required="true" required="" title="">
 
-<form action="https://docs.google.com/a/georgetown.edu/forms/d/1Q84Ky3B3eYDPwINIWSNB30W1fFxaEbppmi5_PmlEn7I/formResponse?embedded=true" method="POST" id="ss-form" target="_self" onsubmit=""><div role="list">
-<div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item jfk-scrollbar ss-item-required ss-text"><div class="ss-form-entry"><label aria-hidden="true" class="ss-q-item-label" for="entry_1745113422"><div class="ss-q-title">First Name
-<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="text" name="entry.1745113422" value="" class="ss-q-short" id="entry_1745113422" dir="auto" aria-label="First Name  " aria-required="true" required="" title="">
-<div class="error-message"></div>
-<div class="required-message">This is a required question</div>
-
-</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item jfk-scrollbar ss-item-required ss-text"><div class="ss-form-entry"><label aria-hidden="true" class="ss-q-item-label" for="entry_116065383"><div class="ss-q-title">Last Name
-<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="text" name="entry.116065383" value="" class="ss-q-short" id="entry_116065383" dir="auto" aria-label="Last Name  " aria-required="true" required="" title="">
-<div class="error-message"></div>
-<div class="required-message">This is a required question</div>
-
-</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item jfk-scrollbar ss-item-required ss-text"><div class="ss-form-entry"><label aria-hidden="true" class="ss-q-item-label" for="entry_957268176"><div class="ss-q-title">E-mail Address
-<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="text" name="entry.957268176" value="" class="ss-q-short" id="entry_957268176" dir="auto" aria-label="E-mail Address  " aria-required="true" required="" title="">
-<div class="error-message"></div>
-<div class="required-message">This is a required question</div>
-
-</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
-<div dir="ltr" class="ss-item jfk-scrollbar ss-item-required ss-select"><div class="ss-form-entry"><label aria-hidden="true" class="ss-q-item-label" for="entry_1627979989"><div class="ss-q-title">Relationship to Georgetown
-<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-<span class="ss-required-asterisk">*</span></div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<select name="entry.1627979989" id="entry_1627979989" aria-label="Relationship to Georgetown  " aria-required="true" required=""><option value=""></option>
-<option value="Georgetown student">Georgetown student</option> <option value="Georgetown alumna/alumnus">Georgetown alumna/alumnus</option> <option value="Georgetown faculty/staff">Georgetown faculty/staff</option> <option value="Friend of Georgetown">Friend of Georgetown</option> <option value="Student at another university">Student at another university</option> <option value="Faculty/staff at another university">Faculty/staff at another university</option> <option value="I&#39;m interested in Designing the Future(s)">I&#39;m interested in Designing the Future(s)</option></select>
-<div class="required-message">This is a required question</div>
-</div></div></div>
-<input type="hidden" name="draftResponse" value="[,,&quot;5101608115528919732&quot;]
-">
-<input type="hidden" name="pageHistory" value="0">
-<input type="hidden" name="fromEmail" value="false">
-
-<input type="hidden" name="fbzx" value="5101608115528919732">
-
-<div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-<input type="submit" name="continue" value="Continue &raquo;" id="ss-submit"></td>
-</tr></tbody></table></div></div></form>
-
+                    <input type="text" name="entry.116065383" value="" class="ss-q-short form-control" placeholder="Last name" id="entry_116065383" dir="auto" aria-label="Last Name  " aria-required="true" required="" title="">
                 </div>
-            </div>
+                
+                <div class="col-md-3">
+                    <input type="text" name="entry.957268176" value="" class="ss-q-short form-control" placeholder="Email" id="entry_957268176" dir="auto" aria-label="E-mail Address  " aria-required="true" required="" title="">
+                </div>
+
+                <div class="col-md-3">
+                    <select name="entry.1627979989" id="entry_1627979989" class="form-control" aria-label="Relationship to Georgetown  " aria-required="true" required=""><option value="">Relationship to Georgetown</option>
+                    <option value="Georgetown student">Georgetown student</option> <option value="Georgetown alumna/alumnus">Georgetown alumna/alumnus</option> <option value="Georgetown faculty/staff">Georgetown faculty/staff</option> <option value="Friend of Georgetown">Friend of Georgetown</option> <option value="Student at another university">Student at another university</option> <option value="Faculty/staff at another university">Faculty/staff at another university</option> <option value="I&#39;m interested in Designing the Future(s)">I&#39;m interested in Designing the Future(s)</option></select>
+                </div>
+                
+                <div class="col-md-3">
+                    <input type="hidden" name="draftResponse" value="[,,&quot;5101608115528919732&quot;]
+                    ">
+                    <input type="hidden" name="pageHistory" value="0">
+                    <input type="hidden" name="fromEmail" value="false">
+
+                    <input type="hidden" name="fbzx" value="5101608115528919732">
+
+                    <button type="submit" class="btn btn-primary btn-lg pull-right" id="subscribe_button" name="continue" value="Continue &raquo;" id="ss-submit">Sign Up</button>
+                    </form>
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+
         </div><!-- /.container -->
     </div><!-- /#events-tier -->
 

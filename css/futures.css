@@ -68,6 +68,7 @@ blockquote { border: 0; padding-left: 0; }
     background: url('../img/seal_banner.png') no-repeat #e6e6e6;
     min-height: 200px;
     border-bottom: 5px solid #6caddf;
+    padding: 15px 0;
 }
 
 #recent-tier {
@@ -115,6 +116,13 @@ span.screen-reader-text {
 form.search-form {
     padding-top: 20px;
 }
+
+/*
+#subscribe_button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+*/
 
 /* unused
 #main {
