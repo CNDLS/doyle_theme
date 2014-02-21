@@ -327,7 +327,7 @@ code {
     }
     
     .carousel-control span.glyphicon { display: none; }
-    .carousel .item { height: 400px; background-position: top left; }
+    .carousel .item { height: 430px; background-position: top left; }
 }
 
 @media (max-width: 979px) {
