@@ -112,6 +112,10 @@ span.screen-reader-text {
     display: none;
 }
 
+form.search-form {
+    padding-top: 20px;
+}
+
 /* unused
 #main {
     z-index: 1000;
@@ -128,6 +132,10 @@ span.screen-reader-text {
 
 code {
     white-space: normal;
+}
+
+.comment-awaiting-moderation {
+    font-style: italic;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -205,8 +213,8 @@ code {
 .carousel-caption {
     text-align: left;
   z-index: 998;
-  left: 40%;
-  right: 25%;
+  left: 43%;
+  right: 20%;
 }
 
 .carousel-caption p {

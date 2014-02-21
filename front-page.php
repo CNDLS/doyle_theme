@@ -30,7 +30,7 @@ get_header(); ?>
         <div class="item active" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/slide1.jpg');">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Designing the Future(s) of the University</h1>
+              <h1>Designing the Future(s)</h1>
               <p>Georgetown University has launched an integrative initiative that engages the whole Georgetown community in an exploration of issues facing higher education and actively experiments with new ways to deliver the education we value into the future.</p>
               <p><a class="btn btn-large btn-primary" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more</a></p>
             </div>

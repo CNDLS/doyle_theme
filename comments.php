@@ -23,12 +23,12 @@ if ( post_password_required() ) {
 	<?php // You can start editing here -- including this comment! ?>
 
 	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title">
+		<h3 class="comments-title">
 			<?php
 				printf( _nx( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'futures' ),
 					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
 			?>
-		</h2>
+		</h3>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav id="comment-nav-above" class="comment-navigation" role="navigation">
@@ -38,7 +38,7 @@ if ( post_password_required() ) {
 		</nav><!-- #comment-nav-above -->
 		<?php endif; // check for comment navigation ?>
 
-		<ol class="comment-list">
+		<ol class="comment-list list-unstyled">
 			<?php
 				wp_list_comments( array(
 					'style'      => 'ol',
@@ -64,6 +64,34 @@ if ( post_password_required() ) {
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'futures' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+    <?php
+$comments_args = array(
+    'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea class="form-control" rows="3" id="comment" name="comment" aria-required="true"></textarea></p>',
+    'fields' => apply_filters( 'comment_form_default_fields', array(
+
+        'author' =>
+            '<p class="comment-form-author">' .
+            '<label for="author">' . __( 'Name', 'domainreference' ) . '</label> ' .
+            ( $req ? '<span class="required">*</span>' : '' ) .
+            '<input id="author" class="form-control" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+            '" size="30"' . $aria_req . ' /></p>',
+
+        'email' =>
+            '<p class="comment-form-email"><label for="email">' . __( 'Email', 'domainreference' ) . '</label> ' .
+            ( $req ? '<span class="required">*</span>' : '' ) .
+            '<input id="email" class="form-control" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+            '" size="30"' . $aria_req . ' /></p>',
+
+        'url' =>
+            '<p class="comment-form-url"><label for="url">' .
+            __( 'Website', 'domainreference' ) . '</label>' .
+            '<input id="url" class="form-control" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
+            '" size="30" /></p>',
+        )
+    ),
+);
+?>
+
+	<?php comment_form($comments_args); ?>
 
 </div><!-- #comments -->
