@@ -303,12 +303,28 @@ code {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media (max-width: 768px) {
+    .carousel-caption {
+        left: 15px;
+        right: 15px;
+    }
+}
+
 @media (max-width: 979px) {
     .navbar-brand {
         min-height: 50px;
         min-width: 165px;
         top: 12px;
         background: url('../img/logo_stacked.png') no-repeat;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 1.4em;
     }
 }
 
