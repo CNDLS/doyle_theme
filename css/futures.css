@@ -146,6 +146,12 @@ code {
     font-style: italic;
 }
 
+.wp-biographia-pic {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
