@@ -330,6 +330,10 @@ code {
     .carousel .item { height: 430px; background-position: top left; }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    #recent-tier img { width: 100%; }
+}
+
 @media (max-width: 979px) {
     .navbar-brand {
         min-height: 50px;
