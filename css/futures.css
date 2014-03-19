@@ -117,6 +117,11 @@ form.search-form {
     padding-top: 20px;
 }
 
+.well h3 {
+    padding-top: 0;
+    margin-top: 10px;
+}
+
 /*
 #subscribe_button {
     margin-top: 20px;
