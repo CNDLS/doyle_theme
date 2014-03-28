@@ -69,7 +69,8 @@
               <ul class="nav navbar-nav pull-right">
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">News</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/category/news/' ) ); ?>">News</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/category/conversation/' ) ); ?>">The Conversation</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">Events</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/experiments/' ) ); ?>">Experiments</a></li>
               </ul>
