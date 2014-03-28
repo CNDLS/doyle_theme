@@ -134,9 +134,9 @@ get_header(); ?>
 
             <div class="col-md-3">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/blog.jpg" />
-                <h3>From the Blog</h3>
+                <h3>Continuing the Conversation</h3>
                 <p class="short">Check the pulse: news, stories, thoughts and connections from our thought leaders.</p>
-                <h4><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">Read more</a></h4>
+                <h4><a href="<?php echo esc_url( home_url( '/category/conversation/' ) ); ?>">Read more</a></h4>
             </div>
         </div>
     </div>
