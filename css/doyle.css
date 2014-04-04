@@ -1,0 +1,21 @@
+#main { min-height: 620px; background: url('../img/aerial.jpg') no-repeat; background-size: cover; padding-top: 420px; }
+
+#second-tier { background: #fff; padding: 50px 0; }
+
+.navbar-brand {
+    position: relative;
+    min-height: 60px;
+    min-width: 464px;
+    top: 0;
+    left: 15px;
+    background: url('../img/doyle.gif') no-repeat;
+}
+
+.navbar-default { border: none; background: none; }
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+html { margin-top: 0; }
+
+h2 { background: #5e7497; padding: 5px 15px; color: #fff; display: inline; font-weight: normal; letter-spacing: 1px; opacity: .8; }

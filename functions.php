@@ -89,7 +89,7 @@ function futures_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), false, 'all' );
-	wp_enqueue_style( 'futures', get_template_directory_uri() . '/css/futures.css', array(), false, 'all' );
+	wp_enqueue_style( 'doyle', get_template_directory_uri() . '/css/doyle.css', array(), false, 'all' );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), false, 'all' );
 

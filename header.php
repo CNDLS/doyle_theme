@@ -15,8 +15,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<script type="text/javascript" src="//use.typekit.net/oax2hcp.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<?php /* <script type="text/javascript" src="//use.typekit.net/oax2hcp.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script> */ ?>
 
 <?php wp_head(); ?>
 </head>
@@ -51,11 +51,6 @@
       <div class="container">
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div id="georgetown-bar">
-            <div class="container">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/georgetown.png" />
-            </div>
-        </div>
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -69,10 +64,9 @@
               <ul class="nav navbar-nav pull-right">
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/category/news/' ) ); ?>">News</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/category/conversation/' ) ); ?>">The Conversation</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">Events</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/experiments/' ) ); ?>">Experiments</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/blog/' ) ); ?>">News</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/faculty/' ) ); ?>">For Faculty</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/students/' ) ); ?>">For Students</a></li>
               </ul>
             </div>
           </div>
