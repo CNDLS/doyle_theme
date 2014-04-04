@@ -50,8 +50,6 @@
 
     <div class="navbar-wrapper">
 
-      <div class="container">
-
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -66,7 +64,7 @@
               <ul class="nav navbar-nav pull-right">
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/blog/' ) ); ?>">News</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">Events</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/faculty/' ) ); ?>">For Faculty</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/students/' ) ); ?>">For Students</a></li>
               </ul>
@@ -74,5 +72,4 @@
           </div>
         </div>
 
-      </div>
     </div>

@@ -16,16 +16,37 @@ get_header(); ?>
 <div id="main">
     <div class="container">
 
-<h2>Engaging difference in higher education and learning</h2>
-<p><a href="#">Learn more</a></p>
+        <div class="row">
+
+            <div class="col-md-7 tagline">
+<h2 id="site-tagline">
+<span class="multiline-wrap">
+    <span class="multiline-inner">
+        Engaging difference in higher education and learning<br />
+        <a href="#">Learn more &rarr;</a>
+    </span>
+</span>
+</h2>
+
+            </div><!-- /.col-md-7 -->
+
+        </div><!-- /.row -->
 
     </div><!-- /.container -->
 </div><!-- /#main -->
 
 <div id="second-tier">
     <div class="container">
+    
+        <div class="row">
 
-<p><strong>The Doyle Program</strong> serves the entire Georgetown University community and is a campus-wide collaboration between the <a href="http://berkleycenter.georgetown.edu/">Berkley Center for Religion, Peace, and World Affairs</a>, the <a href="https://cndls.georgetown.edu/">Center for New Designs in Learning and Scholarship (CNDLS)</a> and <a href="http://college.georgetown.edu/">Georgetown College</a>.</p>
+            <div class="col-md-7 box">
+
+<p class="lead"><span class="initialism">The Doyle Program</span> serves the entire Georgetown University community and is a campus-wide collaboration between the <a href="http://berkleycenter.georgetown.edu/">Berkley Center for Religion, Peace, and World Affairs</a>, the <a href="https://cndls.georgetown.edu/">Center for New Designs in Learning and Scholarship (CNDLS)</a> and <a href="http://college.georgetown.edu/">Georgetown College</a>.</p>
+
+            </div><!-- /.col-md-7 -->
+
+        </div><!-- /.row -->
 
     </div><!-- /.container -->
 </div><!-- /#second-tier -->
