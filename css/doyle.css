@@ -21,7 +21,8 @@ body.home .navbar-default .navbar-nav>li>a {
 }
 
 .navbar-default { border: none; background: none; }
-.navbar-default .navbar-nav>li>a { color: #72624f; }
+.navbar-default .navbar-nav>li>a { color: #fff; }
+.navbar-default .navbar-nav>li>a:hover { background: #5e7497; color: #fff; }
 
 .navbar li { font-weight: 400; font-size: 18px; text-transform: uppercase; letter-spacing: 1px; }
 
@@ -62,4 +63,4 @@ h1.entry-title { color: #5e7497; border-bottom: 3px solid #5e7497; text-transfor
 
 p { font-size: 18px; color: #72624f; line-height: 1.6em; }
 
-#banner { background: #000; min-height: 250px; border-bottom: 50px solid #5e7497; }
+#banner { background: url('../img/bridge.jpg') no-repeat; background-size: cover; min-height: 250px; border-bottom: 50px solid #5e7497; }
