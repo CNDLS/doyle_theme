@@ -23,7 +23,7 @@ get_header(); ?>
 <span class="multiline-wrap">
     <span class="multiline-inner">
         Engaging difference in higher education and learning<br />
-        <a href="#">Learn more &rarr;</a>
+        <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &rarr;</a>
     </span>
 </span>
 </h2>
