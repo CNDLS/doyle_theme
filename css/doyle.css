@@ -1,3 +1,5 @@
+html { margin-top: 0; }
+
 body { background: #fff url('../img/tree.png') no-repeat; background-size: cover; background-position: bottom; min-height: 1340px; }
 
 body.home { background-position: 0 600px; }
@@ -6,6 +8,7 @@ body.home { background-position: 0 600px; }
 
 #second-tier { padding: 50px 0; }
 
+/* NAVBAR */
 .navbar { margin-bottom: -60px; }
 
 .navbar-brand {
@@ -18,9 +21,7 @@ body.home { background-position: 0 600px; }
 }
 
 body.home .navbar-default { border: none; background: none; }
-body.home .navbar-default .navbar-nav>li>a {
-    color: #fff;
-}
+body.home .navbar-default .navbar-nav>li>a { color: #fff; }
 
 .navbar-default { border: none; background: none; }
 .navbar-default .navbar-nav>li>a { color: #fff; }
@@ -28,11 +29,24 @@ body.home .navbar-default .navbar-nav>li>a {
 
 .navbar li { font-weight: 400; font-size: 18px; text-transform: uppercase; letter-spacing: 1px; }
 
-html { margin-top: 0; }
+/* TOP BANNER*/
+#banner { background: url('../img/bridge.jpg') no-repeat; background-size: cover; min-height: 250px; border-bottom: 30px solid #5e7497; }
 
-h2 { font-family: 'Proxima Nova'; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; color: #72624f; font-size: 24px; }
+/* CONTENT */
+#content { margin-top: 50px; }
 
-h2#site-tagline { font-size: 36px; line-height: 2.5em; color: #fff; font-family: 'Proxima Nova'; font-weight: 200; letter-spacing: 1px; }
+/* TYPE */
+h1 {font-size: 32px;}
+
+h1.entry-title { color: #5e7497; border-bottom: 3px solid #5e7497; text-transform: uppercase; letter-spacing: 5px; margin-top: 0px; margin-bottom: 30px; padding-bottom: 8px; }
+
+h2 { font-family: 'Proxima Nova'; letter-spacing: 1px; text-transform: uppercase; color: #72624f; font-size: 20px; font-weight: 600;}
+
+h2#site-tagline { font-size: 36px; line-height: 2.5em; color: #fff; font-family: 'Proxima Nova'; font-weight: 100; letter-spacing: 1px; }
+
+p { font-size: 16px; color: #72624f; line-height: 1.6em; }
+
+p.lead { font-size: 16pt; color: #72624f; margin-bottom: 0; }
 
 .multiline-wrap {
 	box-shadow: -10px 0 0 10px #5e7497, 10px 0 0 10px #5e7497;
@@ -53,17 +67,9 @@ h2#site-tagline { font-size: 36px; line-height: 2.5em; color: #fff; font-family:
 
 .tagline { margin-left: 10px; }
 
-p.lead { font-size: 18pt; color: #72624f; margin-bottom: 0; }
-
 .initialism { font-weight: bold; letter-spacing: 1px; }
 
 .box { background: #fff; border: 3px solid #f2ece4; padding: 30px; margin-bottom: 60px; }
 .sidebar-photo { border: 3px solid #f2ece4; }
 
-#content { margin-top: 50px; }
 
-h1.entry-title { color: #5e7497; border-bottom: 3px solid #5e7497; text-transform: uppercase; letter-spacing: 5px; margin-bottom: 30px; padding-bottom: 8px; }
-
-p { font-size: 18px; color: #72624f; line-height: 1.6em; }
-
-#banner { background: url('../img/bridge.jpg') no-repeat; background-size: cover; min-height: 250px; border-bottom: 50px solid #5e7497; }
