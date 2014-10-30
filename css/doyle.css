@@ -1,12 +1,12 @@
 html { margin-top: 0; }
 
-body { background: #fff url('../img/tree.png') no-repeat; background-size: cover; background-position: bottom; min-height: 1340px; }
+body { background: #fff url('../img/tree.png') no-repeat; background-size: cover; background-position: top; min-height: 1340px; }
 
-body.home { background-position: 0 600px; }
+body.home { background-position: 0 400px; }
 
-#main { min-height: 620px; background: url('../img/aerial.jpg') no-repeat; background-size: cover; padding-top: 300px; }
+#main { height: 620px; background: url('../img/aerial.jpg') no-repeat; background-size: cover; padding-top: 300px; }
 
-#second-tier { padding: 50px 0; }
+#second-tier { padding: 20px 0; }
 
 /* NAVBAR */
 .navbar { margin-bottom: -60px; }
@@ -41,7 +41,7 @@ h1.entry-title { color: #5e7497; border-bottom: 3px solid #5e7497; text-transfor
 
 h2 { font-family: 'Proxima Nova'; letter-spacing: 1px; text-transform: uppercase; color: #72624f; font-size: 20px; font-weight: 600;}
 
-h2#site-tagline { font-size: 36px; line-height: 2.5em; color: #fff; font-family: 'Proxima Nova'; font-weight: 100; letter-spacing: 1px; }
+h2#site-tagline { font-size: 36px; line-height: 2.5em; color: #fff; font-family: 'Proxima Nova'; font-weight: 100; letter-spacing: 1px; margin-bottom: 80px; }
 
 p { font-size: 16px; color: #72624f; line-height: 1.6em; }
 
@@ -64,11 +64,11 @@ p.lead { font-size: 16pt; color: #72624f; margin-bottom: 0; }
 
 .multiline-inner a:hover { text-decoration: none; color: #ddd; }
 
-.tagline { margin-left: 10px; }
+h2.tagline { margin-left: 15px; }
 
 .initialism { font-weight: bold; letter-spacing: 1px; }
 
-.box { background: #fff; border: 3px solid #f2ece4; padding: 30px; margin-bottom: 60px; }
+.box { background: #fff; border: 3px solid #f2ece4; padding: 30px; margin-bottom: 60px; margin-top: 30px; }
 .sidebar-photo { border: 3px solid #f2ece4; }
 
 /* --- media queries --- */
@@ -84,3 +84,5 @@ p.lead { font-size: 16pt; color: #72624f; margin-bottom: 0; }
     ul.nav.navbar-nav { width: 100%; margin-left: 0; }
     .navbar-collapse { padding-left: 0; }
 }
+
+.posts { min-height: 800px; }
