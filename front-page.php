@@ -29,7 +29,7 @@ get_header(); ?>
 </h2>
 
 <div class="box">
-<p class="lead"><span class="initialism">The Doyle Program</span> serves the entire Georgetown University community and is a campus-wide collaboration between the <a href="http://berkleycenter.georgetown.edu/">Berkley Center for Religion, Peace, and World Affairs</a>, the <a href="https://cndls.georgetown.edu/">Center for New Designs in Learning and Scholarship (CNDLS)</a> and <a href="http://college.georgetown.edu/">Georgetown College</a>.</p>
+<p class="lead"><span class="initialism">The Doyle Engaging Difference Program</span> encourages Georgetown students and faculty to consider the value of difference and to engage it through enhanced learning opportunities inside and outside the classroom. This program is a campus-wide collaboration between the <a href="http://berkleycenter.georgetown.edu/">Berkley Center for Religion, Peace, and World Affairs</a>, the <a href="https://cndls.georgetown.edu/">Center for New Designs in Learning and Scholarship (CNDLS)</a> and <a href="http://college.georgetown.edu/">Georgetown College</a>.</p>
 </div>
 
             </div><!-- /.col-md-7 -->

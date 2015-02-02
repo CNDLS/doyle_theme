@@ -39,9 +39,9 @@ h1 {font-size: 32px;}
 
 h1.entry-title { color: #5e7497; border-bottom: 3px solid #5e7497; text-transform: uppercase; letter-spacing: 5px; margin-top: 0px; margin-bottom: 30px; padding-bottom: 8px; }
 
-h2 { font-family: 'Proxima Nova'; letter-spacing: 1px; text-transform: uppercase; color: #72624f; font-size: 20px; font-weight: 600;}
+h2 { font-family: proxima-nova; letter-spacing: 1px; text-transform: uppercase; color: #72624f; font-size: 20px; font-weight: 600;}
 
-h2#site-tagline { font-size: 36px; line-height: 2.5em; color: #fff; font-family: 'Proxima Nova'; font-weight: 100; letter-spacing: 1px; margin-bottom: 80px; }
+h2#site-tagline { font-size: 36px; line-height: 2.5em; color: #fff; font-family: proxima-nova; font-weight: 100; letter-spacing: 1px; margin-bottom: 80px; }
 
 p { font-size: 16px; color: #72624f; line-height: 1.6em; }
 
@@ -85,4 +85,4 @@ h2.tagline { margin-left: 15px; }
     .navbar-collapse { padding-left: 0; }
 }
 
-.posts { min-height: 800px; }
+.posts { min-height: 760px; }
