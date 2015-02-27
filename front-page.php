@@ -35,6 +35,10 @@ get_header(); ?>
             </div><!-- /.col-md-7 -->
 
             <div class="col-md-4 col-md-offset-1 box posts">
+<h2>2015 Symposium</h2>
+
+<p>Please plan to join us for the 2015 Doyle Engaging Difference Symposium: "It is Not Enough to Refrain from Injustice," on April 10, 2015 in Riggs Library! For more information or to respond to our Call for Ideas, see <a href="https://cndls.georgetown.edu/doyle/symposium/">here</a>.</p>
+
 <h2>Welcome</h2>
 
 <p>Welcome to the Doyle Program for Engaging Difference. In addition to resources and information on our programs, check back for news, updates, and upcoming events.</p>
