@@ -35,6 +35,8 @@ get_header(); ?>
             </div><!-- /.col-md-7 -->
 
             <div class="col-md-4 col-md-offset-1 box posts">
+<h2>Welcome</h2>
+
 <p>Welcome to the Doyle Program for Engaging Difference. In addition to resources and information on our programs, check back for news, updates, and upcoming events.</p>
 
 <p><em>To learn more about the various components of the Doyle Engaging Difference Program, please visit the <a href="http://berkleycenter.georgetown.edu/programs/doyle-engaging-difference-program">Berkley Center</a> and <a href="https://cndls.georgetown.edu/doyle/">CNDLS</a>.</em></p>
