@@ -35,27 +35,9 @@ get_header(); ?>
             </div><!-- /.col-md-7 -->
 
             <div class="col-md-4 col-md-offset-1 box posts">
-            <?php if ( have_posts() ) : ?>
+<p>Welcome to the Doyle Program for Engaging Difference. In addition to resources and information on our programs, check back for news, updates, and upcoming events.</p>
 
-                <?php /* Start the Loop */ ?>
-                <?php query_posts('posts_per_page=3'); ?>
-                <?php while ( have_posts() ) : the_post(); ?>
-
-                    <?php
-                        /* Include the Post-Format-specific template for the content.
-                         * If you want to override this in a child theme, then include a file
-                         * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                         */
-                        get_template_part( 'content', 'front' );
-                    ?>
-
-                <?php endwhile; ?>
-
-            <?php else : ?>
-
-                <?php get_template_part( 'content', 'none' ); ?>
-
-            <?php endif; ?>
+<p><em>To learn more about the various components of the Doyle Engaging Difference Program, please visit the <a href="http://berkleycenter.georgetown.edu/programs/doyle-engaging-difference-program">Berkley Center</a> and <a href="https://cndls.georgetown.edu/doyle/">CNDLS</a>.</em></p>
             </div><!-- /.col-md-5 -->
 
         </div><!-- /.row -->
