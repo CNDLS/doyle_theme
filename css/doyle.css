@@ -4,7 +4,7 @@ body { background: #fff url('../img/tree.png') no-repeat; background-size: cover
 
 body.home { background-position: 0 400px; }
 
-#main { height: 620px; background: url('../img/students.jpg') no-repeat; background-size: cover; padding-top: 300px; }
+#main { height: 620px; background: url('../img/aerial.jpg') no-repeat; background-size: cover; padding-top: 300px; }
 
 #second-tier { padding: 20px 0; }
 
