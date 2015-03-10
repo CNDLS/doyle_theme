@@ -19,17 +19,15 @@ get_header(); ?>
         <div class="row">
 
             <div class="col-md-7">
-<h2 id="site-tagline" class="tagline">
-<span class="multiline-wrap">
-    <span class="multiline-inner">
-        Engaging difference in higher education and learning<br />
-        <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &rarr;</a>
-    </span>
-</span>
+<h2 id="site-tagline" class="tagline padded-multiline">
+  <span>
+  Engaging difference in higher education and learning<br />
+  <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &rarr;</a>
+  </span>
 </h2>
 
 <div class="box">
-<p class="lead"><span class="initialism">The Doyle Engaging Difference Program</span> encourages Georgetown students and faculty to consider the value of difference and to engage it through enhanced learning opportunities inside and outside the classroom. This program is a campus-wide collaboration between the <a href="http://berkleycenter.georgetown.edu/">Berkley Center for Religion, Peace, and World Affairs</a>, the <a href="https://cndls.georgetown.edu/">Center for New Designs in Learning and Scholarship (CNDLS)</a> and <a href="http://college.georgetown.edu/">Georgetown College</a>.</p>
+<p class="lead"><span class="initialism">The Doyle Engaging Difference Program</span> encourages Georgetown students and faculty to consider the value of difference and to engage it through enhanced learning opportunities inside and outside the classroom. This program is a campus-wide collaboration between the <a href="http://berkleycenter.georgetown.edu/programs/doyle-engaging-difference-program">Berkley Center for Religion, Peace, and World Affairs</a>, the <a href="https://cndls.georgetown.edu/doyle/">Center for New Designs in Learning and Scholarship (CNDLS)</a> and <a href="http://college.georgetown.edu/">Georgetown College</a>.</p>
 </div>
 
             </div><!-- /.col-md-7 -->
