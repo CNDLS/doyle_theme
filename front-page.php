@@ -42,6 +42,11 @@ get_header(); ?>
 <p>Welcome to the Doyle Program for Engaging Difference. In addition to resources and information on our programs, check back for news, updates, and upcoming events.</p>
 
 <p><em>To learn more about the various components of the Doyle Engaging Difference Program, please visit the <a href="http://berkleycenter.georgetown.edu/programs/doyle-engaging-difference-program">Berkley Center</a> and <a href="https://cndls.georgetown.edu/doyle/">CNDLS</a>.</em></p>
+
+<p class="logos">
+<a href="http://berkleycenter.georgetown.edu/"><img src="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>berkley.svg" width="160" /></a>
+<a href="https://cndls.georgetown.edu/doyle/"><img src="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>cndls.svg" width="160" /></a>
+</p>
             </div><!-- /.col-md-5 -->
 
         </div><!-- /.row -->
