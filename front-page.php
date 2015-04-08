@@ -37,6 +37,8 @@ get_header(); ?>
 
 <p>Please plan to join us for the 2015 Doyle Engaging Difference Symposium: "It is Not Enough to Refrain from Injustice," on April 10, 2015 in Riggs Library! For more information or to respond to our Call for Ideas, see <a href="https://cndls.georgetown.edu/doyle/symposium/">here</a>.</p>
 
+<p><a href="http://berkleycenter.georgetown.edu/events/rsvp/2015-doyle-symposium-it-is-not-enough-to-refrain-from-injustice" class="btn btn-success btn-large">RSVP for the 2015 Doyle Symposium</a></p>
+
 <h2>Welcome</h2>
 
 <p>Welcome to the Doyle Program for Engaging Difference. In addition to resources and information on our programs, check back for news, updates, and upcoming events.</p>
