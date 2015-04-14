@@ -33,11 +33,11 @@ get_header(); ?>
             </div><!-- /.col-md-7 -->
 
             <div class="col-md-4 col-md-offset-1 box posts">
-<h2><a href="https://cndls.georgetown.edu/doyle/symposium/">2015 Symposium</a></h2>
+<h2><a href="https://cndls.georgetown.edu/doyle/call/">2015-16 Call for Fellows</a></h2>
 
-<p>Please plan to join us for the 2015 Doyle Engaging Difference Symposium: "It is Not Enough to Refrain from Injustice," on April 10, 2015 in Riggs Library! For more information or to respond to our Call for Ideas, see <a href="https://cndls.georgetown.edu/doyle/symposium/">here</a>.</p>
+<p>We invite all full-time Georgetown faculty who teach introductory or lower-division courses to apply for the Doyle Faculty Fellows program for the 2015-2016 academic year.  Letters of interest will be accepted through Friday, May 1, 2015.</p>
 
-<p><a href="http://berkleycenter.georgetown.edu/events/rsvp/2015-doyle-symposium-it-is-not-enough-to-refrain-from-injustice" class="btn btn-success btn-large">RSVP for the 2015 Doyle Symposium</a></p>
+<p><a href="https://cndls.georgetown.edu/doyle/call/" class="btn btn-success btn-large">See the Call for Fellows</a></p>
 
 <h2>Welcome</h2>
 
