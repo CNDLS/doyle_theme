@@ -58,15 +58,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <div class="navbar-brand"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="/wp-content/themes/doyle/img/doyle.gif" /></a></div>
+              <div class="navbar-brand"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="wp-content/themes/doyle/img/doyle.gif" /></a></div>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav pull-right">
-                <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/events/' ) ); ?>">Events</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/faculty/' ) ); ?>">For Faculty</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/students/' ) ); ?>">For Students</a></li>
-              </ul>
+            
             </div>
           </div>
         </div>
