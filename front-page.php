@@ -33,11 +33,13 @@ get_header(); ?>
             </div><!-- /.col-md-7 -->
 
             <div class="col-md-4 col-md-offset-1 box posts">
+<?php /*
 <h2><a href="https://cndls.georgetown.edu/doyle/call/">2015-16 Call for Fellows</a></h2>
 
-<p>We invite all full-time Georgetown faculty who teach introductory or lower-division courses to apply for the Doyle Faculty Fellows program for the 2015-2016 academic year.  Letters of interest will be accepted through Friday, May 1, 2015.</p>
+<p>We invite all full-time Georgetown faculty who teach introductory or lower-division courses to apply for the Doyle Faculty Fellows program for the 2015-2016 academic year.  Letters of interest will be accepted through Monday, May 4, 2015.</p>
 
 <p><a href="https://cndls.georgetown.edu/doyle/call/" class="btn btn-success btn-large">See the Call for Fellows</a></p>
+*/ ?>
 
 <h2>Welcome</h2>
 
@@ -46,8 +48,16 @@ get_header(); ?>
 <p><em>To learn more about the various components of the Doyle Engaging Difference Program, please visit the <a href="http://berkleycenter.georgetown.edu/programs/doyle-engaging-difference-program">Berkley Center</a> and <a href="https://cndls.georgetown.edu/doyle/">CNDLS</a>.</em></p>
 
 <p class="logos">
-<a href="http://berkleycenter.georgetown.edu/"><img src="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>berkley.svg" width="160" /></a>
-<a href="https://cndls.georgetown.edu/doyle/"><img src="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>cndls.svg" width="160" /></a>
+  <a href="http://berkleycenter.georgetown.edu/">
+    <object data="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>berkley.svg" type="image/svg+xml">
+    <img src="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>berkley.png" width="160" />
+    </object>
+  </a>
+  <a href="https://cndls.georgetown.edu/doyle/">
+    <object data="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>cndls.svg" type="image/svg+xml">
+    <img src="<?php echo esc_url( home_url( '/wp-content/themes/doyle/img/' ) ); ?>cndls.png" width="160" />
+    </object>
+  </a>
 </p>
             </div><!-- /.col-md-5 -->
 

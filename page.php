@@ -19,12 +19,14 @@ get_header(); ?>
 <div id="content">
 
 <div class="container"><div class="row">
-
+<?php
+/*
 <div class="col-md-4">
 <img src="<?php echo get_template_directory_uri(); ?>/img/<?php echo get_post_meta( $post->ID, 'photo', true ); ?>.jpg" class="sidebar-photo" />
 </div>
+ */ ?>
 
-<div class="col-md-8 box">
+<div class="col-md-12 box">
 
 <h1 class="entry-title"><?php the_title(); ?></h1>
 
