@@ -61,7 +61,11 @@
               <div class="navbar-brand"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="wp-content/themes/doyle/img/doyle.gif" /></a></div>
             </div>
             <div class="navbar-collapse collapse">
-            
+              <?php wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'container' => 'ul',
+                'menu_class' => 'nav navbar-nav pull-right'
+              )); ?>
             </div>
           </div>
         </div>
