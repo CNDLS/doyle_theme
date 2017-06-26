@@ -1,8 +1,9 @@
 /**
  * navigation.js
  *
- * Handles toggling the navigation menu for small screens.
+ * Handles toggling the navigation menu for small screens and sub menu dropdown.
  */
+
 ( function() {
 	var container, button, menu;
 
@@ -31,4 +32,5 @@
 		else
 			container.className += ' toggled';
 	};
-} )();
+}
+)();
