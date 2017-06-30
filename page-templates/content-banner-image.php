@@ -28,9 +28,16 @@ get_header(); ?>
 
 <?php endwhile; // end of the loop.?>
 </div>
+<?php
+
+ $args = array('category_name' => the_field('postloop_select_category'));
+ echo add_postloop($args);
+?>
+
 </div>
 </div>
 </div>
+
 
 </div><!-- /#content -->
 
