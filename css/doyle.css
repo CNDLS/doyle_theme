@@ -190,6 +190,19 @@ p.lead {
 }
 
 
+/* Post Loop */
+.loop-item {
+padding:10px
+}
+
+.loop-inner {
+  background: white;
+  border:1px solid #eee;
+  padding:1em;
+  min-height:250px;
+  overflow:hidden;
+}
+
 /*
 .multiline-wrap {
 	box-shadow: -10px 0 0 10px #5e7497, 10px 0 0 10px #5e7497;

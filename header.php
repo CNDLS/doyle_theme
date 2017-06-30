@@ -58,7 +58,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <div class="navbar-brand"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="wp-content/themes/doyle/img/doyle.gif" /></a></div>
+              <div class="navbar-brand"><a href="<?php echo esc_url( home_url('/') ); ?>"><img src="../wp-content/themes/doyle/img/doyle.gif"/></a></div>
             </div>
             <div class="navbar-collapse collapse">
               <?php wp_nav_menu( array(

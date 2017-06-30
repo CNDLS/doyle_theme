@@ -159,3 +159,15 @@ function add_postloop() {
 	}
 
 }
+
+//EXCERPT OVERRIDES//
+
+function wpdocs_excerpt_more( $more ) {
+    return '<br><a href="'.get_the_permalink().'" rel="nofollow">Read More...</a>';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
