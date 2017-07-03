@@ -23,7 +23,6 @@ get_header(); ?>
       <?php get_template_part('partials/content', 'page'); ?>
       <?php endwhile; // end of the loop.?>
       </div>
-
       </div>
     </div>
   </div>

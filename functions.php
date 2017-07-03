@@ -131,23 +131,27 @@ show_admin_bar( false );
 function add_postloop() {
 	//check to see if ACF is active//
 	if ( is_plugin_active( 'advanced-custom-fields/acf.php' ) ) {
-	//
 		global $post;
 		$post_id = $post->ID;
+
+		//Args mapped to ACF fields
 		$args = array(
 			'cat' => get_field_object('postloop_select_category')['value'],
 			'posts_per_page' => get_field_object('number_of_items_to_display')['value'],
 		);
 
+		//Instantiate WP_Query
 		$postloop = new WP_Query( $args );
 
+		//If show_post_loop is toggled on...
 				if(get_field('show_post_loop')){
 					if ( $postloop->have_posts() ) {
 							// Start looping over the query results.
 							while ( $postloop->have_posts() ) {
 									$postloop->the_post();
+									//Render the template partial 
 									get_template_part('partials/content', 'loop');
-									// Contents of the queried post results go here.
+
 							}
 					}
 				}

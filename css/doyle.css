@@ -202,6 +202,14 @@ padding:10px
   min-height:250px;
   overflow:hidden;
 }
+/*A Quick and Dirty fix for making the loop container full width on side image templates*/
+
+.page-template-content-side-image .loop-container {
+  margin-left:-50%;
+  width: 150%;
+  position:relative;
+}
+
 
 /*
 .multiline-wrap {
@@ -305,12 +313,20 @@ p.logos img {
     p.logos img {
         width: 100%;
     }
+
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
     p.logos img {
         width: 40%;
     }
+}
+
+@media (max-width: 991px) {
+  .page-template-content-side-image .loop-container {
+    width: 100%;
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -327,6 +343,7 @@ p.logos img {
     p.logos img {
         width: 60%;
     }
+
 }
 
 
