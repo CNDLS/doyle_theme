@@ -10,6 +10,9 @@
  */
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
+// Register Custom Navigation Walker
+require_once( 'inc/wp-bootstrap-navwalker.php');
+
 if ( ! isset( $content_width ) ) {
 	$content_width = 640; /* pixels */
 }
@@ -48,6 +51,14 @@ function futures_setup() {
 		'primary' => __( 'Primary Menu', 'futures' ),
 		'footer' => __('Footer Menu', 'futures')
 	) );
+
+	//Custom Walker Class for Nav Sub Menus//
+	class Doyle_Walker_Nav_Menu extends Walker_Nav_Menu {
+  function start_lvl(&$output, $depth =0, $args=array()){
+    $indent = str_repeat("\t", $depth);
+    $output .= "\n$indent<ul class=\"dropdown-menu\">\n";
+  }
+}
 
 	// Enable support for Post Formats.
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
@@ -149,7 +160,7 @@ function add_postloop() {
 							// Start looping over the query results.
 							while ( $postloop->have_posts() ) {
 									$postloop->the_post();
-									//Render the template partial 
+									//Render the template partial
 									get_template_part('partials/content', 'loop');
 
 							}

@@ -63,7 +63,9 @@
             <div class="navbar-collapse collapse">
               <?php wp_nav_menu( array(
                 'theme_location' => 'primary',
-                'items_wrap' => '<ul class="nav navbar-nav pull-right" data-attr="abc">%3$s</ul>',
+                'items_wrap' => '<ul class="nav navbar-nav pull-right">%3$s</ul>',
+                'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+                'walker' => new WP_Bootstrap_Navwalker()
               )); ?>
             </div>
           </div>
