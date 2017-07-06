@@ -93,6 +93,23 @@ body.home {
   color:#5a6e8c;
 }
 
+/*Add a Carot to links in the menu that link to submmenus*/
+.navbar-default li.dropdown-submenu > a:after {
+  content: "\276F";
+  margin-left: 5px;
+  color: #5a6e8c;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: #eee;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 20px;
+}
+
+
+
+
 /* Menu Dropdown and Submenu Dropdown styling*/
 .navbar-default .navbar-nav ul.dropdown-menu {
     padding: 0;
@@ -104,7 +121,7 @@ body.home {
 
 }
 
-/*For rendering the Carots*/
+/*For rendering the Menu Carots*/
 .navbar-default .navbar-nav ul.dropdown-menu::before {
     content: '';
     position: absolute;
@@ -117,6 +134,25 @@ body.home {
     border-right: 10px solid transparent;
     left: 20px;
 }
+
+
+/*For rendering the Sub-menu Carot*/
+.navbar-default .navbar-nav li.dropdown-submenu ul.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 96%;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #eee;
+    left: -20px;
+    top: 8px;
+}
+
+
+
 
 
 .navbar-default .navbar-nav li.dropdown-submenu ul.dropdown-menu {
@@ -155,20 +191,6 @@ left:auto;
   border-right: 10px solid transparent;
 }
 
-/*For rendering the Carot*/
-.navbar-default .navbar-nav li.dropdown-submenu ul.dropdown-menu::before {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    bottom: 96%;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-right: 10px solid #eee;
-    left: -20px;
-    top: 8px;
-}
 
 
 
@@ -451,7 +473,7 @@ p.logos img {
       background:none !important;
 
     }
-    .navbar-default .dropdown-menu:before {
+  .navbar-default li.dropdown-submenu > a:after,  .navbar-default .dropdown-menu:before {
       display:none;
     }
 
