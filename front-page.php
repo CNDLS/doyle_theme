@@ -27,20 +27,18 @@ get_header(); ?>
 </h2>
 
 <div class="box">
-<p class="lead"><span class="initialism">The Doyle Engaging Difference Program</span> encourages Georgetown students and faculty to consider the value of difference and to engage it through enhanced learning opportunities inside and outside the classroom. This program is a campus-wide collaboration between the <a href="http://berkleycenter.georgetown.edu/programs/doyle-engaging-difference-program">Berkley Center for Religion, Peace, and World Affairs</a>, the <a href="https://cndls.georgetown.edu/doyle/">Center for New Designs in Learning and Scholarship (CNDLS)</a> and <a href="http://college.georgetown.edu/">Georgetown College</a>.</p>
+  <?php while ( have_posts() ) : the_post(); ?>
+      <?php get_template_part( 'partials/content', 'front' ); ?>
+
+  <?php endwhile; // end of the loop. ?>
 </div>
 
             </div><!-- /.col-md-7 -->
 
-            <div class="col-md-4 col-md-offset-1 box posts">
-<?php /*
-<h2><a href="https://cndls.georgetown.edu/doyle/call/">2015-16 Call for Fellows</a></h2>
 
-<p>We invite all full-time Georgetown faculty who teach introductory or lower-division courses to apply for the Doyle Faculty Fellows program for the 2015-2016 academic year.  Letters of interest will be accepted through Monday, May 4, 2015.</p>
 
-<p><a href="https://cndls.georgetown.edu/doyle/call/" class="btn btn-success btn-large">See the Call for Fellows</a></p>
-*/ ?>
 
+<div class="col-md-4 col-md-offset-1 box posts">
 <h2>Welcome</h2>
 
 <p>Welcome to the Doyle Program for Engaging Difference. In addition to resources and information on our programs, check back for news, updates, and upcoming events.</p>
