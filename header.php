@@ -51,7 +51,7 @@
     <div class="navbar-wrapper">
 
         <div class="navbar navbar-default" role="navigation">
-          <div class="container">
+          <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>

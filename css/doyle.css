@@ -24,8 +24,12 @@ body.home {
     padding: 20px 0;
 }
 
+.responsive--full {
+  width:100%;
+}
 
-/* NAVBAR */
+
+/* -----------------------NAVBAR----------------------- */
 
 
 /*Navbar Container Styling*/
@@ -193,10 +197,6 @@ left:auto;
 
 
 
-
-
-
-
 body.home .navbar-default {
     border: none;
     background: none;
@@ -212,7 +212,7 @@ li.dropdown-submenu:hover > .dropdown-menu {
 }
 
 
-/* TOP BANNER*/
+/* -----------------------TOP BANNER-----------------------*/
 
 #banner {
     background: url('../img/bridge.jpg') no-repeat;
@@ -229,7 +229,7 @@ li.dropdown-submenu:hover > .dropdown-menu {
 }
 
 
-/* TYPE */
+/* -----------------------TYPE----------------------- */
 
 h1 {
     font-size: 32px;
@@ -372,7 +372,7 @@ p.logos img {
 }
 
 
-/* --- media queries --- */
+/* ----------------------- MEDIA QUERIES ----------------------- */
 
 @media (max-width: 1199px) {
     .navbar-brand {
