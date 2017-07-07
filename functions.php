@@ -136,7 +136,8 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-show_admin_bar( false );
+show_admin_bar( true );
+
 
 
 function add_postloop() {
