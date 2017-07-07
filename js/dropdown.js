@@ -19,7 +19,7 @@ function desktopDropDown() {
     $('.navbar-toggle').addClass('active');
   }
 //add a class to last two list items
-lastItems.slice(lastItems.length - 2).addClass("last-items");
+lastItems.slice(lastItems.length - 1).addClass("last-items");
 
 
 }
