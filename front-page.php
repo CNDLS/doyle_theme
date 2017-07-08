@@ -14,7 +14,6 @@
 get_header(); ?>
 
 <div id="main">
-    <div class="container">
 
 
   <?php while ( have_posts() ) : the_post(); ?>
@@ -22,7 +21,5 @@ get_header(); ?>
       <?php get_template_part( 'partials/content', 'front' ); ?>
 
   <?php endwhile; // end of the loop. ?>
-
-</div>
 </div>
 <?php get_footer(); ?>

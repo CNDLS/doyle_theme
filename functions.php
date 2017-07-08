@@ -136,6 +136,10 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+/**
+ * Load ACF Fields
+ */
+require get_template_directory() . '/inc/acf-fields.php';
 
 if (current_user_can(‘manage_options’)){
 show_admin_bar( true );

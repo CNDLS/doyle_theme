@@ -25,7 +25,7 @@ header {
   margin-top:-80px;
 }
 
-#main .container {
+#main {
   margin-top:-450px
 }
 
@@ -513,11 +513,16 @@ p.logos img {
 /* Carousel */
 
 #doyleCarousel {
-  margin:50px 0;
+
+}
+#doyleCarousel .carousel-inner {
+  max-width: 1170px;
+  margin:auto;
 }
 #doyleCarousel .carousel-inner .item .carousel-img{
 max-height: 400px;
 overflow:hidden;
+
 
 }
 #doyleCarousel .caption {
@@ -538,5 +543,13 @@ color: #fff;
 color: #eee;
 border:1px solid #eee;
 display:inline-block;
+padding:10px 5px;
 
+}
+/*carousel control overrides*/
+.carousel-control.left, .carousel-control.right {
+  background: none;
+      color: #3c5175;
+      font-size: 50px;
+      opacity: 1;
 }
