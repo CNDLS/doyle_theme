@@ -136,13 +136,16 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+
+if (current_user_can(‘manage_options’)){
 show_admin_bar( true );
+}
 
 
 
 function add_postloop() {
 	//check to see if ACF is active//
-	if ( is_plugin_active( 'advanced-custom-fields/acf.php' ) ) {
+	if ( is_plugin_active( 'advanced-custom-fields-pro/acf.php' ) ) {
 		global $post;
 		$post_id = $post->ID;
 

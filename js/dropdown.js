@@ -27,6 +27,9 @@ lastItems.slice(lastItems.length - 1).addClass("last-items");
 $(document).ready(function(){
   //instantiate function on doc ready//
   desktopDropDown();
+  $('#doyleCarousel').find('.item:first').addClass('active');
+  $('#doyleCarousel').find('.carousel-indicators li:first').addClass('active');
+
 
 
 

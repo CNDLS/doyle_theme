@@ -9,12 +9,11 @@
 
 get_header(); ?>
 
-<div id="banner"></div>
-
 <div id="content">
   <div class="container">
     <div class="row">
       <div class="col-md-12 box">
+        <div class="row">
         <h1 class="entry-title"><?php the_title(); ?></h1>
         <div class="col-md-4"><?php the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full']); ?></div>
 
@@ -23,6 +22,7 @@ get_header(); ?>
       <?php get_template_part('partials/content', 'page'); ?>
       <?php endwhile; // end of the loop.?>
       </div>
+    </div>
       </div>
     </div>
   </div>

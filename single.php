@@ -12,10 +12,6 @@
 
 get_header(); ?>
 
-<div id="banner">
-
-</div>
-
 <div id="content">
 
 <div class="container"><div class="row">

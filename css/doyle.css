@@ -3,22 +3,33 @@ html {
 }
 
 body {
-    background: #fff url('../img/tree.png') no-repeat;
+    /*background: #fff url('../img/tree.png') no-repeat;*/
     background-size: cover;
     background-position: top;
-    min-height: 1340px;
 }
 
 body.home {
     background-position: 0 400px;
 }
 
-#main {
-    height: 620px;
-    background: url('../img/aerial.jpg') no-repeat;
-    background-size: cover;
-    padding-top: 300px;
+header {
+  background: url('../img/aerial.jpg') no-repeat;
+  background-size: cover;
 }
+
+.jumbotron{
+  height: 550px;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  margin-top:-80px;
+}
+
+#main .container {
+  margin-top:-450px
+}
+
+
 
 #second-tier {
     padding: 20px 0;
@@ -35,18 +46,16 @@ body.home {
 /*Navbar Container Styling*/
 
 .navbar {
-    margin-bottom: -60px;
+  background:none;
+  margin-bottom:20px;
+  min-height:60px;
+  border:none;
 
 }
 
 .navbar-brand {
     top: 0;
     padding: 0;
-}
-
-.navbar-default {
-    border: none;
-    background: none;
 }
 
 
@@ -58,11 +67,13 @@ body.home {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
+
 }
 
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    height:60px;
 }
 
 .navbar-default .navbar-nav>.open>a {
@@ -196,7 +207,7 @@ left:auto;
 }
 
 
-
+/*
 body.home .navbar-default {
     border: none;
     background: none;
@@ -204,7 +215,7 @@ body.home .navbar-default {
 
 body.home .navbar-default .navbar-nav>li>a {
     color: #fff;
-}
+}*/
 
 
 li.dropdown-submenu:hover > .dropdown-menu {
@@ -498,3 +509,34 @@ p.logos img {
 
 /*
 .posts { min-height: 760px; } */
+
+/* Carousel */
+
+#doyleCarousel {
+  margin:50px 0;
+}
+#doyleCarousel .carousel-inner .item .carousel-img{
+max-height: 400px;
+overflow:hidden;
+
+}
+#doyleCarousel .caption {
+  text-align: left;
+  background: #3c5175;
+  padding: 1em;
+}
+
+#doyleCarousel .caption-title {
+color: #fff;
+}
+
+#doyleCarousel .caption-desc p{
+  color:#fff;
+}
+
+#doyleCarousel a.caption-link{
+color: #eee;
+border:1px solid #eee;
+display:inline-block;
+
+}

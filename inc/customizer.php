@@ -14,6 +14,25 @@ function futures_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+
+
+// 	$wp_customize->add_section('home_options', array(
+// 		'title' => __('Homepage Options', 'futures'),
+// 		'description' => sprintf(__('Modify homepage options')),
+// 		'priority' => 199,
+// 	));
+//
+// 	$wp_customize->add_setting('homepage_box', array(
+// 		'default' => _x('Content goes here', 'futures'),
+// 		'type' => 'theme_mod'
+// 	));
+//
+// 	$wp_customize->add_control('homepage_box', array(
+// 		'label' => __('Homepage Info Box', 'futures'),
+// 		'type' => 'textarea',
+// 		'section'=> 'home_options',
+// 		'priority' => 1
+// 	));
 }
 add_action( 'customize_register', 'futures_customize_register' );
 

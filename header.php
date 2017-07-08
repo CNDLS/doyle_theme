@@ -47,28 +47,33 @@
 */ ?>
 
 <div id="page">
-
-    <div class="navbar-wrapper">
-
-        <div class="navbar navbar-default" role="navigation">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <div class="navbar-brand"><a href="<?php echo esc_url( home_url('/') ); ?>"><img src="../wp-content/themes/doyle/img/doyle.gif"/></a></div>
-            </div>
-            <div class="navbar-collapse collapse">
-              <?php wp_nav_menu( array(
-                'theme_location' => 'primary',
-                'items_wrap' => '<ul class="nav navbar-nav pull-right">%3$s</ul>',
-                'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
-                'walker' => new WP_Bootstrap_Navwalker()
-              )); ?>
-            </div>
+<header>
+  <div class="navbar-wrapper">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand"><a href="<?php echo esc_url( home_url('/') ); ?>"><img src="../wp-content/themes/doyle/img/doyle.gif"/></a></div>
+          </div>
+          <div class="navbar-collapse collapse">
+            <?php wp_nav_menu( array(
+              'theme_location' => 'primary',
+              'items_wrap' => '<ul class="nav navbar-nav pull-right">%3$s</ul>',
+              'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+              'walker' => new WP_Bootstrap_Navwalker()
+            )); ?>
           </div>
         </div>
+      </div>
 
-    </div>
+  </div>
+  <div class="jumbotron">
+
+
+
+      </div>
+</header>
