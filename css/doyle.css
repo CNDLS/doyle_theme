@@ -74,6 +74,25 @@ header {
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     height:60px;
+
+}
+
+.navbar-default .navbar-nav>li>a:before {
+  content:'';
+  display:block;
+  position:absolute;
+  top: 0;
+  left:0;
+  width:0;
+  height:2px;
+  background-color:transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar-default .navbar-nav>.open>a:before {
+  width:100%;
+  background-color:white;
+
 }
 
 .navbar-default .navbar-nav>.open>a {
@@ -91,12 +110,15 @@ header {
 
 .navbar-default .dropdown-menu li a {
   font-size:12px;
+
 }
 
 .navbar-default .navbar-nav>li:hover>a, .dropdown-menu>li.active >a {
   color:#5a6e8c;
   background:none;
 }
+
+
 
 .navbar-default .navbar-nav>li:hover>a, .dropdown-menu>li>a:focus {
     background: #5a6e8c;
@@ -124,9 +146,6 @@ header {
 
 
 /* Menu Dropdown and Submenu Dropdown styling*/
-
-
-
 .navbar-default .navbar-nav ul.dropdown-menu {
     padding: 0;
     position: absolute;
@@ -137,6 +156,9 @@ header {
     max-height:0;
     opacity:0;
     display:block;
+    z-index:0;
+    overflow:hidden;
+    transition:all, 0.3s ease-in;
 }
 
 .navbar-default .navbar-nav  li.open ul.dropdown-menu {
@@ -145,6 +167,7 @@ header {
   opacity:1;
   transition: all, 0.3s ease-in;
   z-index:1;
+  overflow:visible;
 }
 
 /*For rendering the Menu Carots*/
@@ -179,12 +202,12 @@ header {
 
 
 .navbar-default .navbar-nav li.dropdown-submenu ul.dropdown-menu {
-    top: -2px;
+    top: 0px;
     left: 100%;
     border-top: none;
     background: #ddd;
     border: none;
-    opacity:0 !important;
+    opacity:0;
 }
 
 /*For Last 2 Top Links, left-align submenus! */
@@ -477,6 +500,8 @@ p.logos img {
       position:relative !important;
       border-left:1px solid #fff;
       z-index:0;
+      opacity:1 !important;
+      width:100%;
 
 
     }
