@@ -522,7 +522,7 @@ padding:10px 5px;
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
     p.logos img {
         width: 60%;
     }
