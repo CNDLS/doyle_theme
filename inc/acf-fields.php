@@ -1,6 +1,6 @@
 <?php /**
  * An Export of ACF Fields to be used with the Doyle Website. This file will be included with the functions.php
- * 
+ *
  * @package futures
  */
  ?>
@@ -236,8 +236,8 @@ acf_add_local_field_group(array (
 			'key' => 'field_59552dcca670d',
 			'label' => 'Number of Items to Display',
 			'name' => 'number_of_items_to_display',
+      'instructions' => 'Select the number of posts to display. Select "0" for all posts.',
 			'type' => 'select',
-			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => array (
 				array (
@@ -254,7 +254,8 @@ acf_add_local_field_group(array (
 				'id' => '',
 			),
 			'choices' => array (
-				1 => '1',
+				0 => '0',
+        1 => '1',
 				2 => '2',
 				3 => '3',
 				4 => '4',
