@@ -57,7 +57,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <div class="navbar-brand"><a href="<?php echo esc_url( home_url('/') ); ?>"><img src="../wp-content/themes/doyle/img/doyle.gif"/></a></div>
+            <div class="navbar-brand"><?php
+// Display the Custom Logo
+the_custom_logo();
+
+// No Custom Logo, just display the site's name
+if (!has_custom_logo()) {
+    ?>
+    <h1><?php bloginfo('name'); ?></h1>
+    <?php
+}
+?></div>
           </div>
           <div class="navbar-collapse collapse">
             <?php wp_nav_menu( array(

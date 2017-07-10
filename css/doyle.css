@@ -23,6 +23,7 @@ header {
   background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   margin-top:-80px;
+  margin-bottom:0;
 }
 
 #main {
@@ -443,12 +444,19 @@ p.logos img {
         width: 100%;
     }
 
+
+
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 1170px) {
     p.logos img {
         width: 40%;
     }
+    .carousel-control.left, .carousel-control.right {
+    top: -25%;
+    color: rgba(255, 255, 255, 0.62) !important;
+    font-size:35px;
+}
 }
 
 @media (max-width: 991px) {
@@ -466,6 +474,7 @@ p.logos img {
     /*Navbar Mobile Styling*/
     .navbar-header, div.navbar-collapse {
         background: #5e7497;
+        min-height: 60px;
     }
     ul.nav.navbar-nav {
         width: 100%;
@@ -538,6 +547,10 @@ p.logos img {
       font-size:11px !important;
     }
 
+    /*hiding the caoursel controls on mobile*/
+.carousel-control.left, .carousel-control.right {
+  display:none;
+}
 
 }
 
@@ -550,6 +563,7 @@ p.logos img {
 #doyleCarousel {
   margin:0 0 50px 0;
   background: #eee;
+  padding:20px 0;
 
 }
 #doyleCarousel .carousel-inner {
