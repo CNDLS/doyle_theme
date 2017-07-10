@@ -14,13 +14,15 @@ get_header(); ?>
 
 <div id="content">
 
-<div class="container"><div class="row">
+<div class="container">
+<div id="main">
+
+
+  <div class="row">
 
 
 
 <div class="col-md-12 box">
-
-<h1 class="entry-title"><?php the_title(); ?></h1>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
@@ -33,6 +35,6 @@ get_header(); ?>
 </div></div>
 
 </div><!-- /#content -->
-
+</div>
 <?php // get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -123,9 +123,10 @@ header {
 }
 
 
-
-
 /* Menu Dropdown and Submenu Dropdown styling*/
+
+
+
 .navbar-default .navbar-nav ul.dropdown-menu {
     padding: 0;
     position: absolute;
@@ -133,7 +134,17 @@ header {
     background: #fff;
     border-radius:0;
     box-shadow:none;
+    max-height:0;
+    opacity:0;
+    display:block;
+}
 
+.navbar-default .navbar-nav  li.open ul.dropdown-menu {
+  display:block;
+  max-height:300px;
+  opacity:1;
+  transition: all, 0.3s ease-in;
+  z-index:1;
 }
 
 /*For rendering the Menu Carots*/
@@ -167,15 +178,13 @@ header {
 }
 
 
-
-
-
 .navbar-default .navbar-nav li.dropdown-submenu ul.dropdown-menu {
     top: -2px;
     left: 100%;
     border-top: none;
     background: #ddd;
     border: none;
+    opacity:0 !important;
 }
 
 /*For Last 2 Top Links, left-align submenus! */
@@ -193,7 +202,20 @@ left:auto;
   left:auto;
 }
 
-/*SubMenu Dropdown*/
+/*SubMenu options*/
+
+/*on hover...*/
+
+.navbar-default .navbar-nav li.dropdown-submenu:hover {
+color:blue;
+
+}
+.navbar-default .navbar-nav li.dropdown-submenu:hover > .dropdown-menu {
+  transition: all, 0.3s, ease-in-out;
+  opacity:1 !important;
+  display: block;
+}
+
 .navbar-default .navbar-nav li.last-items li.dropdown-submenu ul.dropdown-menu {
   right:100%;
 }
@@ -207,20 +229,6 @@ left:auto;
 }
 
 
-/*
-body.home .navbar-default {
-    border: none;
-    background: none;
-}
-
-body.home .navbar-default .navbar-nav>li>a {
-    color: #fff;
-}*/
-
-
-li.dropdown-submenu:hover > .dropdown-menu {
-    display: block;
-}
 
 
 /* -----------------------TOP BANNER-----------------------*/
@@ -468,6 +476,8 @@ p.logos img {
       background:none !important;
       position:relative !important;
       border-left:1px solid #fff;
+      z-index:0;
+
 
     }
 
