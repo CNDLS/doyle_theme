@@ -17,6 +17,10 @@ header {
   background-size: cover;
 }
 
+img {
+  max-width:100%;
+}
+
 .program-header {
     color: white;
     background: #5e7498;
