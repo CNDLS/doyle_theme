@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div id="content">
-  <div class="container">
+  <div id="main" class="container">
     <div class="row">
       <div class="col-md-12 box">
         <div class="row">

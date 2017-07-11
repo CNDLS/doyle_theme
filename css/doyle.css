@@ -84,6 +84,10 @@ header {
 
 }
 
+ .navbar-nav>li>a:focus {
+   color:#fff;
+ }
+
 .navbar-default .navbar-nav>li>a:before {
   content:'';
   display:block;
