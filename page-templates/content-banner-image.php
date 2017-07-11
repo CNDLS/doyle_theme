@@ -3,6 +3,8 @@
  * The template for displaying all pages.
  *
  * Template Name: Banner Image Page
+ * Template Post Type: post, page
+
  * Description: Standard Page template with a Banner Image
  *
  * @package futures

@@ -3,6 +3,7 @@
  *
  * Template Name: Side Image Page
  * Description: Standard Page template with a Side Image
+ * Template Post Type: post, page
  *
  * @package futures
  */
