@@ -477,6 +477,12 @@ padding:10px 5px;
 
 /* ----------------------- MEDIA QUERIES ----------------------- */
 
+@media (max-width: 1400px){
+  .nav>li>a {
+  font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 1199px) {
     .navbar-brand {
         max-width: 200px;
@@ -491,13 +497,15 @@ padding:10px 5px;
         font-size: 30px;
     }
     .nav>li>a {
-        padding: 15px 10px;
+        padding: 10px 5px;
     }
     p.logos {
         margin-top: 50px;
         text-align: center;
     }
 }
+
+
 
 @media (min-width: 992px) and (max-width: 1198px) {
     p.logos img {
