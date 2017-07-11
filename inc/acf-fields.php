@@ -236,7 +236,7 @@ acf_add_local_field_group(array (
 			'key' => 'field_59552dcca670d',
 			'label' => 'Number of Items to Display',
 			'name' => 'number_of_items_to_display',
-      'instructions' => 'Select the number of posts to display. Select "0" for all posts.',
+      'instructions' => 'Select the number of posts to display. Select "all" for all posts.',
 			'type' => 'select',
 			'required' => 0,
 			'conditional_logic' => array (
@@ -254,7 +254,7 @@ acf_add_local_field_group(array (
 				'id' => '',
 			),
 			'choices' => array (
-				0 => '0',
+				-1 => 'all',
         1 => '1',
 				2 => '2',
 				3 => '3',
