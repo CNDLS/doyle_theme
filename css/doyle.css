@@ -343,7 +343,6 @@ padding:10px
   background: white;
   border:1px solid #eee;
   padding:1em;
-  min-height:250px;
   overflow:hidden;
 }
 /*A Quick and Dirty fix for making the loop container full width on side image templates*/
