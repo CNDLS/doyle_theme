@@ -20,9 +20,11 @@
 				<img style="width:100%" src="<?php  the_sub_field('carousel_image'); ?>"></img>
         </div>
 				<div class="caption col-md-12">
-					<h1 class="caption-title"><?php the_sub_field('caption_title') ?></h1>
+
+						<h1 class="caption-title"><a href="<?php the_sub_field('read_more_link') ?>">
+							<?php the_sub_field('caption_title') ?></a></h1>
           <h3 class="caption-desc"><?php the_sub_field('caption_desc') ?></h3>
-					<a class="caption-link" href="<?php the_sub_field('read_more_link') ?>">Read More</a>
+					<a class="text-right caption-link" href="<?php the_sub_field('read_more_link') ?>">Read More</a>
 				</div>
 			</div>
 				<?php	    endwhile; ?>

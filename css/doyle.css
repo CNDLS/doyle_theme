@@ -445,17 +445,38 @@ p.logos img {
 #doyleCarousel .carousel-inner .item .carousel-img{
 max-height: 400px;
 overflow:hidden;
-
-
 }
 #doyleCarousel .caption {
   text-align: left;
   background: #3c5175;
   padding: 1em;
+  z-index: 2;
 }
 
 #doyleCarousel .caption-title {
 color: #fff;
+}
+#doyleCarousel .caption-title > a {
+text-decoration: none;
+color:#fff;
+transition:all, 0.3s, ease-in;
+position:relative;
+}
+#doyleCarousel .caption-title > a:before {
+  content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    transition: width .5s ease-in, background-color .5s ease-out;
+}
+
+#doyleCarousel .caption-title:hover > a:before {
+  width:100%;
+  background-color:#09b;
 }
 
 #doyleCarousel .caption-desc p{
@@ -467,6 +488,7 @@ color: #eee;
 border:1px solid #eee;
 display:inline-block;
 padding:10px 5px;
+background:#09b;
 
 }
 /*carousel control overrides*/
@@ -554,7 +576,7 @@ padding:10px 5px;
     .navbar-header {
         float: none;
     }
-    .navbar-left,.navbar-right {
+    .navbar-left, .navbar-right {
         float: none !important;
     }
     .navbar-toggle {
@@ -617,6 +639,13 @@ padding:10px 5px;
       width:100%;
       background: none !important;
 }
+.carousel-control.left, .carousel-control.right {
+top: -25%;
+color: rgba(255, 255, 255, 0.62) !important;
+font-size:35px;
+}
+
+}
 
 
 
@@ -633,11 +662,7 @@ padding:10px 5px;
     p.logos img {
         width: 40%;
     }
-    .carousel-control.left, .carousel-control.right {
-    top: -25%;
-    color: rgba(255, 255, 255, 0.62) !important;
-    font-size:35px;
-}
+
 }
 
 @media (max-width: 991px) {
@@ -660,7 +685,7 @@ padding:10px 5px;
     }
 
 
-    }
+
     .navbar-default .dropdown-menu li {
       border:none;
 
@@ -683,6 +708,8 @@ padding:10px 5px;
       display: block;
       left: 0% !important;
       opacity:1 !important;
+      background: none !important;
+
     }
 
     li.dropdown-submenu> .dropdown-menu li {
@@ -698,5 +725,4 @@ padding:10px 5px;
 .carousel-control.left, .carousel-control.right {
   display:none;
 }
-
 }
