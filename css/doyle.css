@@ -430,7 +430,7 @@ p.logos img {
 
 
 
-/* Carousel */
+/* ----------------------- Carousel -----------------------*/
 
 #doyleCarousel {
   margin:0 0 50px 0;
@@ -476,6 +476,52 @@ padding:10px 5px;
       font-size: 50px;
       opacity: 1;
 }
+
+
+/* ----------------------- Footer -----------------------*/
+
+#footer{
+  border-top: 3px solid #f2ece4;
+  min-height: 250px;
+  padding:10px 0;
+  background: #363636;
+}
+
+.left-footer, .right-footer {
+  text-align: center;
+  height:100%;
+  padding:20px;
+}
+
+.right-footer:before {
+  content: "";
+      position: absolute;
+      left: 0;
+      top: 3%;
+      bottom: 3%;
+      background: rgba(130, 114, 102, 0.25);
+      width: 1px;
+  }
+
+#footer object, #footer img {
+  border-bottom: 1px solid #827266;
+  border-top: 1px solid #827266;
+  width:100%;
+}
+
+/*Footer Typography*/
+
+#footer .glyphicon {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#footer a {
+    color: #98846d;
+    text-decoration: underline;
+}
+
+
 
 
 
