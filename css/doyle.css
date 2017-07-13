@@ -522,6 +522,7 @@ padding:10px 5px;
     .navbar-collapse.collapse {
         display: none!important;
         height: auto !important;
+        overflow-y: auto !important;
     }
     .navbar-nav {
         float: none!important;
@@ -543,12 +544,11 @@ padding:10px 5px;
         min-height: 60px;
         margin-left:-15px !important;
         margin-right:-15px !important;
-        ]: hidden
     }
     ul.nav.navbar-nav {
-        /* width: 100%; */
-        /* margin: 0; */
-        /* padding:0; */
+         width: 100%;
+        margin: 0;
+        padding:0;
     }
     .navbar-collapse {
         padding: 0;
@@ -636,6 +636,7 @@ padding:10px 5px;
       position:relative;
       display: block;
       left: 0% !important;
+      opacity:1 !important;
     }
 
     li.dropdown-submenu> .dropdown-menu li {
