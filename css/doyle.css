@@ -85,7 +85,6 @@ img {
 .navbar-default .navbar-nav>li>a {
     color: #fff;
     height:60px;
-
 }
 
  .navbar-nav>li>a:focus {
@@ -229,10 +228,7 @@ img {
 /*The last item class is being rendered via JS (see dropdown.js)*/
 
 
-.navbar-default .navbar-nav li.last-items ul.dropdown-menu{
-right:0;
-left:auto;
-}
+.navbar-default .navbar-nav li.last-items ul.dropdown-menu{right:0;left:auto;}
 
 /*Menu Dropdown*/
 .navbar-default .navbar-nav li.last-items ul.dropdown-menu:before {
@@ -335,6 +331,10 @@ p.lead {
 
 
 /* Post Loop */
+
+.loop-container{
+  margin-bottom:50px;
+}
 .loop-item {
 padding:10px
 }
@@ -351,6 +351,7 @@ padding:10px
   margin-left:-50%;
   width: 150%;
   position:relative;
+
 }
 
 
@@ -482,17 +483,13 @@ padding:10px 5px;
 
 @media (max-width: 1400px){
   .nav>li>a {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  padding: 10px;
   }
 }
 
 @media (max-width: 1199px) {
-    .navbar-brand {
-        max-width: 200px;
-    }
-    .navbar-brand img {
-        width: 280px;
-    }
+
     .navbar-nav>li>a {
         font-size: 80%;
     }
@@ -501,11 +498,78 @@ padding:10px 5px;
     }
     .nav>li>a {
         padding: 10px 5px;
+        font-size: 1.3rem;
     }
     p.logos {
         margin-top: 50px;
         text-align: center;
     }
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+        height: auto !important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: auto !important;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar-header, div.navbar-collapse {
+        background: #5e7497;
+        min-height: 60px;
+        margin-left:-15px !important;
+        margin-right:-15px !important;
+        ]: hidden
+    }
+    ul.nav.navbar-nav {
+        /* width: 100%; */
+        /* margin: 0; */
+        /* padding:0; */
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    .navbar-default .navbar-toggle {
+      border:none;
+    }
+
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background:none;
+  }
+
+  .navbar-default .navbar-toggle span.icon-bar {
+    background-color:#fff !important;
+  }
+    .navbar-default ul.dropdown-menu {
+      position:relative !important;
+      z-index:0;
+      width:100%;
+      background: none !important;
 }
 
 
@@ -519,7 +583,7 @@ padding:10px 5px;
 
 }
 
-@media (min-width: 769px) and (max-width: 1170px) {
+@media (min-width: 770px) and (max-width: 1170px) {
     p.logos img {
         width: 40%;
     }
@@ -537,55 +601,20 @@ padding:10px 5px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
     p.logos img {
         width: 60%;
     }
 
     /*Navbar Mobile Styling*/
-    .navbar-header, div.navbar-collapse {
-        background: #5e7497;
-        min-height: 60px;
+    .navbar-brand img{
+      width: 300px;
+      height: auto;
     }
-    ul.nav.navbar-nav {
-        width: 100%;
-        margin: 0;
-        padding:0;
-    }
-    .navbar-collapse {
-        padding: 0;
-    }
-
-    .navbar-default .navbar-toggle {
-      border:none;
-    }
-
-  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background:none;
-  }
-  .navbar-default .navbar-toggle:hover > .icon-bar, .navbar-default .navbar-toggle:focus > span.icon-bar {
-    transition: all .25s ease-in-out;
-  }
-
-  .globalmenu-toggle.is-open .icon-bar:nth-child(1) {
-    background-color:#09b !important;
-    transform: rotate(45deg) translate(5px, 4px);
-  }
-
-  .navbar-default .navbar-toggle span.icon-bar {
-    background-color:#fff !important;
-  }
-    .navbar-default ul.dropdown-menu {
-      background:none !important;
-      position:relative !important;
-      border-left:1px solid #fff;
-      z-index:0;
-      opacity:1 !important;
-      width:100%;
 
 
     }
-
     .navbar-default .dropdown-menu li {
       border:none;
 
