@@ -46,7 +46,7 @@
 */ ?>
 
 <div id="page">
-<header>
+<header style="background: url('<?php echo get_theme_mod('header_image', '') ?>') no-repeat; background-size: cover;">
   <div class="navbar-wrapper">
       <div class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -86,10 +86,15 @@ if (!has_custom_logo()) {
 	<div class="row">
 		<div class="col-md-7">
 			<h2 id="site-tagline" class="tagline padded-multiline">
-			<span>
-			Engaging difference in higher education and learning<br />
-			<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Learn more &rarr;</a>
-			</span>
+        <span>
+          <?php
+            $tagline = get_theme_mod('header_tag', '');
+              if(empty($tagline)) : ?>
+              Engaging difference in higher education and learning<br>
+              <a href="http://lauradunn.georgetown.domains/blog/about/">Learn more →</a>
+            <?php else: echo $tagline ?>
+          </span>
+          <?php endif ?>
 			</h2>
 		</div>
 	<div class="col-md-5 box posts">

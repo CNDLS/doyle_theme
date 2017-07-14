@@ -13,31 +13,20 @@
         <div class="container">
           <div class="row">
             <div class="left-footer col-md-6">
-              <a href="https://cndls.georgetown.edu/doyle/">
-                <object data="http://doyle.georgetown.edu/wp-content/themes/doyle/img/berkley.svg" width="400" height="200" type="image/svg+xml">
-                  <img src="http://doyle.georgetown.edu/wp-content/themes/doyle/img/berkley.png"  />
-                </object>
-              </a>
+              <?php if (!empty( get_theme_mod('left_footer_image', ''))): ?>
+            <img src="<?php echo get_theme_mod('left_footer_image', '') ?>" />
+          <?php endif ?>
+
               <div class="footer-caption col-md-8 col-md-offset-2">
-                <p class="text-left">
-                <span class="glyphicon glyphicon-globe"></span><a href="http://berkleycenter.georgetown.edu" target="_blank">berkleycenter.georgetown.edu</a>
-                <br>
-                <span class="glyphicon glyphicon-phone"></span>(202) 687-5119
-                <br>
-                <span class="glyphicon glyphicon-envelope"></span><a href="mailto:berkleycenter@georgetown.edu">berkleycenter@georgetown.edu</a>
-              </p>
+               <?php echo get_theme_mod('left_footer_section', '') ?>
               </div>
             </div>
             <div class="right-footer col-md-6">
-            <object data="http://doyle.georgetown.edu/wp-content/themes/doyle/img/cndls.svg" type="image/svg+xml" width="400" height="200"> <img src="http://doyle.georgetown.edu/wp-content/themes/doyle/img/cndls.png" /></object></a>
+              <?php if (!empty( get_theme_mod('right_footer_image', ''))): ?>
+            <img src="<?php echo get_theme_mod('right_footer_image', '') ?>" />
+          <?php endif ?>
             <div class="footer-caption col-md-8 col-md-offset-2">
-              <p class="text-left">
-              <span class="glyphicon glyphicon-globe"></span><a href="http://cndls.georgetown.edu" target="_blank">cndls.georgetown.edu</a>
-              <br>
-              <span class="glyphicon glyphicon-phone"></span>(202) 687-0625
-              <br>
-              <span class="glyphicon glyphicon-envelope"></span><a href="mailto:cndls@georgetown.edu">cndls@georgetown.edu</a>
-            </p>
+              <?php echo get_theme_mod('right_footer_section', '') ?>
             </div>
           </div>
           </div>
