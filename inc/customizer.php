@@ -78,7 +78,7 @@ function futures_customize_register($wp_customize)
 	$wp_customize->add_section('left_footer_options', array(
 		'title' => __('Left Footer Options', 'futures') ,
 		'description' => sprintf(__('Modify the Footer')) ,
-		'priority' => 2000,
+		'priority' => 1,
 		'panel' => 'footer_options'
 	));
 
@@ -92,13 +92,12 @@ function futures_customize_register($wp_customize)
 		'label' => __('Left Footer Content', 'futures') ,
 		'type' => 'textarea',
 		'section' => 'left_footer_options',
-		'priority' => 2
 	));
 
 	// Left Footer Image Settings and Controls
 
 	$wp_customize->add_setting('left_footer_image', array(
-		'default' => _x('hi', 'futures') ,
+		'default' => _x(get_template_directory_uri() . '/img/berkley.png', 'futures') ,
 		'type' => 'theme_mod'
 	));
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'left_footer_image', array(
@@ -132,7 +131,7 @@ function futures_customize_register($wp_customize)
 	// Right Footer Image Setting and Control
 
 	$wp_customize->add_setting('right_footer_image', array(
-		'default' => _x('', 'futures') ,
+		'default' => _x(get_template_directory_uri() . '/img/cndls.png', 'futures') ,
 		'type' => 'theme_mod'
 	));
 	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'right_footer_image', array(

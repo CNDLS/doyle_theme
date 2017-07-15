@@ -26,14 +26,6 @@ img {
     padding: 10px 5px;
 }
 
-.jumbotron {
-    min-height: 550px;
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-    margin-top: -80px;
-    margin-bottom: 0;
-}
 
 #main {
     margin-top: -450px
@@ -48,6 +40,41 @@ img {
 }
 
 
+/*------------------------HEADER ELEMENTS --------------- */
+
+h2#site-tagline {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    line-height:2em;
+}
+
+header .box {
+    background: rgba(54, 54, 54, 0.62);
+    color: white;
+}
+
+header .box h2, header .box p {
+    color:#fff !important;
+}
+
+
+.jumbotron {
+    min-height: 550px;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    margin-top: -80px;
+    margin-bottom: 0;
+}
+
+.jumbotron .inner-jumbo {
+    display: flex;
+    align-items: center;
+    padding-top: 4em;
+}
 /* -----------------------NAVBAR----------------------- */
 
 
@@ -314,14 +341,7 @@ h2 {
     font-weight: 600;
 }
 
-h2#site-tagline {
-    font-size: 36px;
-    line-height: 2.5em;
-    color: #fff;
-    font-weight: 100;
-    letter-spacing: 1px;
-    margin-bottom: 80px;
-}
+
 
 p {
     font-size: 16px;
@@ -389,7 +409,6 @@ p.lead {
 }
 
 .padded-multiline span {
-    background-color: #5e7497;
     opacity: .9;
     color: #fff;
     display: inline;
@@ -404,6 +423,8 @@ p.lead {
     color: #fff;
     font-size: 24px;
     letter-spacing: 3px;
+    background: #5e7497;
+    padding: 5px;
 }
 
 h2.tagline {
@@ -539,9 +560,7 @@ p.logos img {
 }
 
 #footer object, #footer img {
-    border-bottom: 1px solid #827266;
-    border-top: 1px solid #827266;
-    width: 100%;
+    width:100%;
 }
 
 
@@ -568,6 +587,10 @@ p.logos img {
 }
 
 @media (max-width: 1199px) {
+
+  .inner-jumbo {
+    display:block !important;
+  }
     .navbar-nav>li>a {
         font-size: 80%;
     }
@@ -695,6 +718,8 @@ p.logos img {
         width: 100%;
         margin-left: auto;
     }
+
+
 }
 
 @media (max-width: 767px) {

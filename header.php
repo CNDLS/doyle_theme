@@ -83,7 +83,7 @@ if (!has_custom_logo()) {
   <div class="jumbotron">
 <?php if (is_front_page()): ?>
 <div class="container">
-	<div class="row">
+	<div class="inner-jumbo row">
 		<div class="col-md-7">
 			<h2 id="site-tagline" class="tagline padded-multiline">
         <span>
