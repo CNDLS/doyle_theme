@@ -34,6 +34,6 @@ $(document).ready(function(){
 
   $('.loop-container').masonry({
     itemSelector: '.loop-item',
-    columnWidth: '.loop-item'
+    columnWidth: '.loop-item',
   });
 });

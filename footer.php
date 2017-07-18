@@ -40,7 +40,8 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="<?php echo get_template_directory_uri(); ?>/js/dropdown.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/dropdown.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
 <?php /*
