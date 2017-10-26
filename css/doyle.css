@@ -100,7 +100,7 @@ header .box h2, header .box p {
 
 .navbar {
     background: none;
-    margin-bottom: 20px;
+    margin-bottom: -60px;
     min-height: 60px;
     border: none;
 }
