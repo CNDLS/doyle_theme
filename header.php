@@ -81,24 +81,25 @@ if (!has_custom_logo()) {
       </div>
 
   </div>
-  <div class="jumbotron">
-<?php if (is_front_page()): ?>
-<div class="container">
-	<div class="inner-jumbo row">
-		<h2 id="site-tagline" class="tagline site-tagline">
-			<?php
-				$tagline = get_theme_mod('header_tag', '');
-			?>
-			<?php if ( empty( $tagline ) ) : ?>
-				<span class="site-tagline__inner">Engaging difference in higher education and learning</span>
-			<?php else : ?>
-				<span class="site-tagline__inner"><?php echo $tagline; ?></span><!-- Comment to remove whitespace
-	 --><?php endif; ?><!-- Comment to remove whitespace before inline-block element
-		 --><a class="site-tagline__button" href="http://lauradunn.georgetown.domains/blog/about/">Learn more →</a>
-		</h2>
-	</div>
-</div>
-
-<?php endif ?>
-      </div>
+	<?php if (is_front_page()): ?>
+	  <div class="jumbotron">
+			<div class="container">
+				<div class="inner-jumbo row">
+					<h2 id="site-tagline" class="tagline site-tagline">
+						<?php
+							$tagline = get_theme_mod('header_tag', '');
+						?>
+						<?php if ( empty( $tagline ) ) : ?>
+							<span class="site-tagline__inner">Engaging difference in higher education and learning</span>
+						<?php else : ?>
+							<span class="site-tagline__inner"><?php echo $tagline; ?></span>
+						<?php endif; ?>
+						<a class="site-tagline__button" href="http://lauradunn.georgetown.domains/blog/about/">Learn more →</a>
+					</h2>
+				</div>
+			</div>
+	  </div>
+	<?php else : ?>
+		<div id="banner"></div>
+	<?php endif; ?>
 </header>
