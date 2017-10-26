@@ -1,4 +1,3 @@
-
 <?php
 /**
  * futures Theme Customizer
