@@ -6,6 +6,7 @@
  *
  * @package futures
  */
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -84,22 +85,17 @@ if (!has_custom_logo()) {
 <?php if (is_front_page()): ?>
 <div class="container">
 	<div class="inner-jumbo row">
-		<div class="col-md-7">
-			<h2 id="site-tagline" class="tagline padded-multiline">
-        <span>
-          <?php
-            $tagline = get_theme_mod('header_tag', '');
-              if(empty($tagline)) : ?>
-              Engaging difference in higher education and learning<br>
-              <a href="http://lauradunn.georgetown.domains/blog/about/">Learn more →</a>
-            <?php else: echo $tagline ?>
-          </span>
-          <?php endif ?>
-			</h2>
-		</div>
-	<div class="col-md-5 box posts">
-	<?php the_field('homepage_box') ?>
-	</div>
+		<h2 id="site-tagline" class="tagline site-tagline">
+			<?php
+				$tagline = get_theme_mod('header_tag', '');
+			?>
+			<?php if ( empty( $tagline ) ) : ?>
+				<span class="site-tagline__inner">Engaging difference in higher education and learning</span>
+			<?php else : ?>
+				<span class="site-tagline__inner"><?php echo $tagline; ?></span><!-- Comment to remove whitespace
+	 --><?php endif; ?><!-- Comment to remove whitespace before inline-block element
+		 --><a class="site-tagline__button" href="http://lauradunn.georgetown.domains/blog/about/">Learn more →</a>
+		</h2>
 	</div>
 </div>
 
