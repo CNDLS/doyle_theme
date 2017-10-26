@@ -27,10 +27,6 @@ img {
 }
 
 
-#main {
-    margin-top: -450px
-}
-
 #second-tier {
     padding: 20px 0;
 }
@@ -43,12 +39,33 @@ img {
 /*------------------------HEADER ELEMENTS --------------- */
 
 h2#site-tagline {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1000px;
     font-size: 36px;
     color: #fff;
     font-weight: 800;
     letter-spacing: 1px;
-    margin-bottom: 30px;
-    line-height:2em;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.site-tagline__inner {
+    display: block;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
+
+.site-tagline__button {
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    background: #5e7497;
+    padding: 5px;
 }
 
 header .box {
@@ -62,7 +79,6 @@ header .box h2, header .box p {
 
 
 .jumbotron {
-    min-height: 550px;
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
@@ -72,6 +88,8 @@ header .box h2, header .box p {
 
 .jumbotron .inner-jumbo {
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
     align-items: center;
     padding-top: 4em;
 }
@@ -82,7 +100,7 @@ header .box h2, header .box p {
 
 .navbar {
     background: none;
-    margin-bottom: 20px;
+    margin-bottom: -60px;
     min-height: 60px;
     border: none;
 }
@@ -102,9 +120,10 @@ header .box h2, header .box p {
     letter-spacing: 1px;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     height: 60px;
+    background-color: transparent;
 }
 
 .navbar-nav>li>a:focus {
@@ -139,7 +158,12 @@ header .box h2, header .box p {
 .navbar-default .dropdown-menu li {
     border-bottom: 1px solid #eee;
     padding: 5px;
+    padding-left: 20px;
     position: relative;
+}
+
+.navbar-default .dropdown-menu li.menu-item-has-children {
+    padding-left: 5px;
 }
 
 .navbar-default .dropdown-menu li a {
@@ -734,5 +758,11 @@ p.logos img {
     /*hiding the caoursel controls on mobile*/
     .carousel-control.left, .carousel-control.right {
         display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .jumbotron .inner-jumbo {
+        padding-top: 5em;
     }
 }
