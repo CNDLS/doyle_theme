@@ -143,7 +143,7 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 require get_template_directory() . '/inc/acf-fields.php';
 
-if (current_user_can(‘manage_options’)){
+if (current_user_can('manage_options')){
 show_admin_bar( true );
 }
 
