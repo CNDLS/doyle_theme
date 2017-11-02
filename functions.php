@@ -196,3 +196,15 @@ function wpdocs_custom_excerpt_length( $length ) {
     return 20;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+/*
+ * Add custom image sizes.
+ */
+
+// Homepage Carousel Images
+add_image_size( 'home_carousel_2340', 2340, 849, true );
+add_image_size( 'home_carousel_2075', 2075, 753, true );
+add_image_size( 'home_carousel_1732', 1732, 628, true );
+add_image_size( 'home_carousel_1382', 1382, 501, true );
+add_image_size( 'home_carousel_951', 951, 345, true );
+add_image_size( 'home_carousel_320', 320, 116, true );
