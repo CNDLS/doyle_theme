@@ -202,9 +202,9 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
  */
 
 // Homepage Carousel Images
-add_image_size( 'home_carousel_2340', 2340, 1442, true );
-add_image_size( 'home_carousel_2073', 2073, 1277, true );
-add_image_size( 'home_carousel_1731', 1731, 1067, true );
-add_image_size( 'home_carousel_1380', 1380, 850, true );
-add_image_size( 'home_carousel_948', 948, 584, true );
-add_image_size( 'home_carousel_320', 320, 197, true );
+add_image_size( 'home_carousel_2340', 2340, 849, true );
+add_image_size( 'home_carousel_2075', 2075, 753, true );
+add_image_size( 'home_carousel_1732', 1732, 628, true );
+add_image_size( 'home_carousel_1382', 1382, 501, true );
+add_image_size( 'home_carousel_951', 951, 345, true );
+add_image_size( 'home_carousel_320', 320, 116, true );
