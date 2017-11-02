@@ -27,8 +27,7 @@
 			?>
 			<div class="item">
 				<div class="carousel-img">
-					<img style="width:100%"
-					     src="<?php echo $src; ?>"
+					<img src="<?php echo $src; ?>"
 					     srcset="<?php echo $srcset; ?>"
 					     sizes="(max-width: 1170px) 100vw, 1170px">
 				</div>

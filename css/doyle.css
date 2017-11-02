@@ -496,11 +496,6 @@ p.logos img {
     margin: auto;
 }
 
-#doyleCarousel .carousel-inner .item .carousel-img {
-    max-height: 400px;
-    overflow: hidden;
-}
-
 #doyleCarousel .caption {
     text-align: left;
     background: #3c5175;
