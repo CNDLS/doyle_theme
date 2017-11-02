@@ -52,7 +52,7 @@ acf_add_local_field_group(array (
 					'key' => 'field_595fff75cdc36',
 					'label' => 'Carousel Image',
 					'name' => 'carousel_image',
-					'type' => 'image',
+					'type' => 'id',
 					'instructions' => '',
 					'required' => 0,
 					'conditional_logic' => 0,
