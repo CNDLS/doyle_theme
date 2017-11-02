@@ -4,8 +4,11 @@
 <div id="doyleCarousel" class="carousel slide" data-ride="carousel">
 	<!-- Slider Controls -->
 	<ol class="carousel-indicators">
-		<?php while ( have_rows( 'carousel' ) ) : the_row();
-			$i ++; ?>
+		<?php
+		$i = 0;
+		while ( have_rows( 'carousel' ) ) : the_row();
+		$i ++;
+		?>
 			<li data-target="#doyleCarousel" data-slide-to="<?php echo $i ?>"></li>
 		<?php endwhile; ?>
 	</ol>
@@ -17,9 +20,9 @@
 		while ( have_rows( 'carousel' ) ) : the_row(); ?>
 			<?php
 			$id = get_sub_field( 'carousel_image' );
-			$src_array = wp_get_attachment_image_src( $id, 'large' );
+			$src_array = wp_get_attachment_image_src( $id, 'home_carousel_2340' );
 			$src = $src_array[0]; // Default 'src' for <img> tag.
-			$srcset = wp_get_attachment_image_srcset( $id, 'full' );
+			$srcset = wp_get_attachment_image_srcset( $id, 'home_carousel_2340' );
 			$alt = get_post_meta( $id, '_wp_attachment_image_alt', true);
 			?>
 			<div class="item">
