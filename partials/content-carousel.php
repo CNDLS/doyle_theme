@@ -16,10 +16,11 @@
 		// loop through each slide //
 		while ( have_rows( 'carousel' ) ) : the_row(); ?>
 			<?php
-				$id = get_sub_field( 'carousel_image' );
-				$src = wp_get_attachment_image_src( $id, 'large' ); // Default src for 'src' attribute
-				$srcset = wp_get_attachment_image_srcset( $id, 'full' );
-				$alt = get_post_meta( $id, '_wp_attachment_image_alt', true);
+			$id = get_sub_field( 'carousel_image' );
+			$src_array = wp_get_attachment_image_src( $id, 'large' );
+			$src = $src_array[0]; // Default 'src' for <img> tag.
+			$srcset = wp_get_attachment_image_srcset( $id, 'full' );
+			$alt = get_post_meta( $id, '_wp_attachment_image_alt', true);
 			?>
 			<div class="item">
 				<div class="carousel-img">
