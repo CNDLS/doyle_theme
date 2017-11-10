@@ -95,15 +95,7 @@ function futures_customize_register($wp_customize)
 
 	// Left Footer Image Settings and Controls
 
-	$wp_customize->add_setting('left_footer_image', array(
-		'default' => _x(get_template_directory_uri() . '/img/berkley.png', 'futures') ,
-		'type' => 'theme_mod'
-	));
-	$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'left_footer_image', array(
-		'label' => __('Upload a left footer section image', 'futures') ,
-		'section' => 'left_footer_options',
-		'settings' => 'left_footer_image'
-	)));
+		// Image is now hardcoded into footer.php for security purposes, since we are using an SVG.
 
 	// Right Footer Section
 
