@@ -593,6 +593,7 @@ p.logos img {
 #footer a {
     color: #98846d;
     text-decoration: underline;
+    word-break: break-all;
 }
 
 
