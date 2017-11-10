@@ -90,11 +90,12 @@
 							$tagline = get_theme_mod('header_tag', '');
 							?>
 							<?php if ( empty( $tagline ) ) : ?>
-								<span class="site-tagline__inner">Engaging difference in higher education and learning</span>
+								<span class="site-tagline__inner">Engaging difference in higher education</span>
 							<?php else : ?>
 								<span class="site-tagline__inner"><?php echo $tagline; ?></span>
 							<?php endif; ?>
-							<a class="site-tagline__button" href="http://lauradunn.georgetown.domains/blog/about/">Learn more →</a>
+							<?php // $post_id = 1639 corresponds to the page 'About the Program' ?>
+							<a class="site-tagline__button" href="<?php echo the_permalink(1639); ?>">Learn more →</a>
 						</h2>
 					</div>
 				</div>
