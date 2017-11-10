@@ -13,25 +13,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="left-footer col-md-6">
-					<?php if (!empty( get_theme_mod('left_footer_image', ''))): ?>
-						<div class="col-md-5">
-							<img src="<?php echo get_theme_mod('left_footer_image', ''); ?>" />
-						</div>
-					<?php endif; ?>
+					<div class="col-md-5">
+						<img src="<?php echo get_template_directory_uri() . '/img/berkley.svg'; ?>" />
+					</div>
 					<div class="footer-caption col-md-7">
 						<?php echo get_theme_mod('left_footer_section', ''); ?>
-	        </div>
-	      </div>
+					</div>
+				</div>
 				<div class="right-footer col-md-6">
 					<div class="col-md-5">
 						<img src="<?php echo get_template_directory_uri() . '/img/cndls-2.svg'; ?>" />
 					</div>
-		      <div class="footer-caption col-md-7">
-		        <?php echo get_theme_mod('right_footer_section', ''); ?>
-		      </div>
-	      </div>
-	    </div>
-	  </div>
+					<div class="footer-caption col-md-7">
+						<?php echo get_theme_mod('right_footer_section', ''); ?>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </div><!-- /#page -->
