@@ -156,9 +156,11 @@ function add_postloop() {
 		$post_id = $post->ID;
 
 		//Args mapped to ACF fields
+		$postloop_select_category = get_field_object('postloop_select_category');
+		$number_of_items_to_display = get_field_object('number_of_items_to_display');
 		$args = array(
-			'cat' => get_field_object('postloop_select_category')['value'],
-			'posts_per_page' => get_field_object('number_of_items_to_display')['value'],
+			'cat' => $postloop_select_category['value'],
+			'posts_per_page' => $number_of_items_to_display['value'],
 		);
 
 		//Instantiate WP_Query
