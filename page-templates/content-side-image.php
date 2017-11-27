@@ -17,7 +17,7 @@ get_header(); ?>
         <div class="row">
 	        <h1 class="entry-title"><?php the_title(); ?></h1>
 	        <div class="col-md-4">
-		        <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full']); ?>
+		        <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive responsive--full')); ?>
 	        </div>
 		      <div class="col-md-8">
 			      <?php while (have_posts()) : the_post(); ?>
