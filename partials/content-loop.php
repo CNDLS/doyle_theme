@@ -6,7 +6,7 @@
 </div>
 <?php if (has_post_thumbnail()): ?>
 <div class="col-md-5">
-  <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full']); ?>
+  <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive responsive--full')); ?>
 </div>
 <div class="col-md-7 loop-body">
 <?php the_excerpt(); ?>

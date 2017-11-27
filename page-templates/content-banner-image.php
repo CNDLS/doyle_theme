@@ -18,7 +18,7 @@ get_header(); ?>
     <div class="col-md-12 box">
 <h1 class="entry-title"><?php the_title(); ?></h1>
 <div class="col-md-12">
-  <?php the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive responsive--full']); ?>
+  <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-responsive responsive--full')); ?>
 </div>
 
 <div class="col-md-12">
