@@ -31,9 +31,4 @@ $(document).ready(function(){
   $('#doyleCarousel').find('.item:first').addClass('active');
   $('#doyleCarousel').find('.carousel-indicators li:first').addClass('active');
 
-
-  $('.loop-container').masonry({
-    itemSelector: '.loop-item',
-    columnWidth: '.loop-item',
-  });
 });

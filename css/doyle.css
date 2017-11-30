@@ -391,6 +391,7 @@ p.lead {
 .loop-item {
     padding: 10px;
     margin-bottom:10px;
+    min-height: 240px;
 }
 
 .loop-inner {
@@ -399,16 +400,6 @@ p.lead {
     padding: 1em;
     overflow: hidden;
 }
-
-
-/*A Quick and Dirty fix for making the loop container full width on side image templates*/
-
-.page-template-content-side-image .loop-container {
-    margin-left: -50%;
-    width: 150%;
-    position: relative;
-}
-
 
 /*
 .multiline-wrap {
