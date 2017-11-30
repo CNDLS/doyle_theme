@@ -7,7 +7,7 @@
 This documentation contains an overview of all updates made to the Doyle website. The Doyle website is a Wordpress site (version 4.8) that uses the underscores starter theme: http://underscores.me/. Github: https://github.com/Automattic/_s
 
 ## JS Frameworks
-Bootstrap, JQuery and Masonry.js libraries.
+Bootstrap, JQuery libraries.
 
 ## CSS Frameworks
 Bootstrap
