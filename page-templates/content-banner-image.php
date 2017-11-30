@@ -25,6 +25,7 @@ get_header(); ?>
 
 <?php while (have_posts()) : the_post(); ?>
 
+	<?php the_content(); ?>
     <?php get_template_part('partials/content', 'page'); ?>
 
 <?php endwhile; // end of the loop.?>
