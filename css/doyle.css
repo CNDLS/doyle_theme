@@ -731,6 +731,10 @@ p.logos img {
         margin-left: auto;
     }
 
+    .loop-item {
+        width: 100%;
+    }
+
 
 }
 
