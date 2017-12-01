@@ -391,7 +391,6 @@ p.lead {
 .loop-item {
     padding: 10px;
     margin-bottom:10px;
-    min-height: 240px;
 }
 
 .loop-inner {
@@ -730,6 +729,10 @@ p.logos img {
     .page-template-content-side-image .loop-container {
         width: 100%;
         margin-left: auto;
+    }
+
+    .loop-item {
+        width: 100%;
     }
 
 
