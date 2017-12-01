@@ -14,7 +14,8 @@ if ( get_field( 'show_post_loop' ) && get_field( 'bucket_title' ) ) :
 ?>
 	<h2 class="entry-title"><?php the_field( 'bucket_title' ) ?></h2>
 <?php endif ?>
-
-<?php echo add_postloop( $args ); ?>
+<div class="row loop-container">
+	<?php echo add_postloop( $args ); ?>
+</div>
 
 
