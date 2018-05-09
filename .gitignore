@@ -14,3 +14,5 @@ sitemap.xml.gz
 .DS_Store
 
 \.idea/
+
+deploy-scripts/config\.sh
