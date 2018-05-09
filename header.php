@@ -47,7 +47,10 @@
 */ ?>
 
 <div id="page">
-<header style="background-image: url('<?php echo get_theme_mod('header_image', ''); ?>');">
+<?php
+	$header_image = get_theme_mod('header_image', '');
+?>
+<header style="background-image: url('<?php echo $header_image; ?>');">
 		<div class="navbar-wrapper">
 			<div class="navbar navbar-default" role="navigation">
 				<div class="container-fluid">
