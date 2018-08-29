@@ -35,7 +35,7 @@ function futures_customize_register($wp_customize)
 	// Header Tagline Setting and Control
 
 	$wp_customize->add_setting('header_tag', array(
-		'default' => 'Engaging Differences in Higher Education',
+		'default' => 'Engaging Difference in Higher Education',
 		'type' => 'theme_mod',
 	));
 	$wp_customize->add_control('header_tag', array(
@@ -81,47 +81,83 @@ function futures_customize_register($wp_customize)
 		'panel' => 'footer_options'
 	));
 
-	// Left Footer Textarea Settings and Controls
+	// Left Footer Settings and Controls
 
-	$wp_customize->add_setting('left_footer_section', array(
-		'default' => _x('Content goes here', 'futures') ,
+	$wp_customize->add_setting('left_footer_url', array(
+		'default' => '',
 		'type' => 'theme_mod'
 	));
-	$wp_customize->add_control('left_footer_section', array(
-		'label' => __('Left Footer Content', 'futures') ,
-		'type' => 'textarea',
+	$wp_customize->add_control('left_footer_url', array(
+		'label' => 'Left Footer URL',
+		'type' => 'text',
 		'section' => 'left_footer_options',
 	));
 
-	// Left Footer Image Settings and Controls
+	$wp_customize->add_setting('left_footer_phone', array(
+		'default' => '',
+		'type' => 'theme_mod'
+	));
+	$wp_customize->add_control('left_footer_phone', array(
+		'label' => 'Left Footer Phone',
+		'type' => 'text',
+		'section' => 'left_footer_options',
+	));
 
-		// Image is now hardcoded into footer.php for security purposes, since we are using an SVG.
+	$wp_customize->add_setting('left_footer_email', array(
+		'default' => '',
+		'type' => 'theme_mod'
+	));
+	$wp_customize->add_control('left_footer_email', array(
+		'label' => 'Left Footer Email',
+		'type' => 'text',
+		'section' => 'left_footer_options',
+	));
+
+	// TO-DO: Madke image customizable by theme customizer
 
 	// Right Footer Section
 
 	$wp_customize->add_section('right_footer_options', array(
-		'title' => __('Right Footer Options', 'futures') ,
-		'description' => sprintf(__('Modify the Footer')) ,
-		'priority' => 0,
+		'title' => 'Right Footer Options',
+		'priority' => 1,
 		'panel' => 'footer_options'
 	));
 
-	// Right Footer Text Area Settings and Control
+	// Right Footer Settings and Controls
 
-	$wp_customize->add_setting('right_footer_section', array(
-		'default' => _x('Content goes here', 'futures') ,
+	$wp_customize->add_setting('right_footer_url', array(
+		'default' => '',
 		'type' => 'theme_mod'
 	));
-	$wp_customize->add_control('right_footer_section', array(
-		'label' => __('Right Footer Content', 'futures') ,
-		'type' => 'textarea',
+	$wp_customize->add_control('right_footer_url', array(
+		'label' => 'Right Footer URL',
+		'type' => 'text',
 		'section' => 'right_footer_options',
-		'priority' => 1
+	));
+
+	$wp_customize->add_setting('right_footer_phone', array(
+		'default' => '',
+		'type' => 'theme_mod'
+	));
+	$wp_customize->add_control('right_footer_phone', array(
+		'label' => 'Right Footer Phone',
+		'type' => 'text',
+		'section' => 'right_footer_options',
+	));
+
+	$wp_customize->add_setting('right_footer_email', array(
+		'default' => '',
+		'type' => 'theme_mod'
+	));
+	$wp_customize->add_control('right_footer_email', array(
+		'label' => 'Right Footer Email',
+		'type' => 'text',
+		'section' => 'right_footer_options',
 	));
 
 	// Right Footer Image Setting and Control
 
-		// Image is now hardcoded into footer.php for security purposes, since we are using an SVG.
+		// TO-DO: Make right footer image pull data from Theme Customizer. Currently hardcoded.
 
 
 	}
