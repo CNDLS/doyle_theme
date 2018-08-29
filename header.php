@@ -90,13 +90,9 @@
 					<div class="inner-jumbo row">
 						<h2 id="site-tagline" class="tagline site-tagline">
 							<?php
-							$tagline = get_theme_mod('header_tag', '');
+								$tagline = get_theme_mod('header_tag', '');
 							?>
-							<?php if ( empty( $tagline ) ) : ?>
-								<span class="site-tagline__inner">Engaging difference in higher education</span>
-							<?php else : ?>
-								<span class="site-tagline__inner"><?php echo $tagline; ?></span>
-							<?php endif; ?>
+							<span class="site-tagline__inner"><?php echo $tagline; ?></span>
 							<?php // $post_id = 1639 corresponds to the page 'About the Program' ?>
 							<a class="site-tagline__button" href="<?php echo the_permalink(1639); ?>">Learn more →</a>
 						</h2>
