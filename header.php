@@ -25,60 +25,60 @@
 
 <body <?php body_class(); ?>>
 
-<div id="page">
-<?php
-	$header_image = get_theme_mod('header_image', '');
-?>
-<header style="background-image: url('<?php echo $header_image; ?>');">
-		<div class="navbar-wrapper">
-			<div class="navbar navbar-default" role="navigation">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<div class="navbar-brand"><?php
-							// Display the Custom Logo
-							the_custom_logo();
+	<div id="page">
+		<?php
+			$header_image = get_theme_mod('header_image', '');
+		?>
+		<header style="background-image: url('<?php echo $header_image; ?>');">
+			<div class="navbar-wrapper">
+				<div class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="navbar-brand"><?php
+								// Display the Custom Logo
+								the_custom_logo();
 
-							// No Custom Logo, just display the site's name
-							if (!has_custom_logo()) {
-								?>
-								<h1><?php bloginfo('name'); ?></h1>
+								// No Custom Logo, just display the site's name
+								if (!has_custom_logo()) {
+									?>
+									<h1><?php bloginfo('name'); ?></h1>
+									<?php
+								}
+								?></div>
+						</div>
+						<div class="navbar-collapse collapse">
+							<?php wp_nav_menu( array(
+								'theme_location' => 'primary',
+								'items_wrap' => '<ul class="nav navbar-nav pull-right">%3$s</ul>',
+								'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+								'walker' => new WP_Bootstrap_Navwalker()
+							)); ?>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<?php if (is_front_page()): ?>
+				<div class="jumbotron">
+					<div class="container">
+						<div class="inner-jumbo row">
+							<h2 id="site-tagline" class="tagline site-tagline">
 								<?php
-							}
-							?></div>
-					</div>
-					<div class="navbar-collapse collapse">
-						<?php wp_nav_menu( array(
-							'theme_location' => 'primary',
-							'items_wrap' => '<ul class="nav navbar-nav pull-right">%3$s</ul>',
-							'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
-							'walker' => new WP_Bootstrap_Navwalker()
-						)); ?>
+									$tagline = get_theme_mod('header_tag', '');
+								?>
+								<span class="site-tagline__inner"><?php echo $tagline; ?></span>
+								<?php // $post_id = 1639 corresponds to the page 'About the Program' ?>
+								<a class="site-tagline__button" href="<?php echo the_permalink(1639); ?>">Learn more →</a>
+							</h2>
+						</div>
 					</div>
 				</div>
-			</div>
-
-		</div>
-		<?php if (is_front_page()): ?>
-			<div class="jumbotron">
-				<div class="container">
-					<div class="inner-jumbo row">
-						<h2 id="site-tagline" class="tagline site-tagline">
-							<?php
-								$tagline = get_theme_mod('header_tag', '');
-							?>
-							<span class="site-tagline__inner"><?php echo $tagline; ?></span>
-							<?php // $post_id = 1639 corresponds to the page 'About the Program' ?>
-							<a class="site-tagline__button" href="<?php echo the_permalink(1639); ?>">Learn more →</a>
-						</h2>
-					</div>
-				</div>
-			</div>
-		<?php else : ?>
-			<div id="banner"></div>
-		<?php endif; ?>
-	</header>
+			<?php else : ?>
+				<div id="banner"></div>
+			<?php endif; ?>
+		</header>
