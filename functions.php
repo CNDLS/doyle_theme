@@ -107,7 +107,6 @@ function futures_scripts() {
 	wp_enqueue_style( 'doyle', get_template_directory_uri() . '/css/doyle.css', array(), false, 'all' );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), false, 'all' );
-	wp_enqueue_script( 'customizer', get_template_directory_uri() . '/js/customizer.js', array(), false, 'all' );
 
 
 }

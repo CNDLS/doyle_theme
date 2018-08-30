@@ -163,15 +163,3 @@ function futures_customize_register($wp_customize)
 	}
 
 add_action('customize_register', 'futures_customize_register');
-/**
- * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
- */
-
-function futures_customize_preview_js()
-	{
-	wp_enqueue_script('futures_customizer', get_template_directory_uri() . '/js/customizer.js', array(
-		'customize-preview'
-	) , '20130508', true);
-	}
-
-add_action('customize_preview_init', 'futures_customize_preview_js');
