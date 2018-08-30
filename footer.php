@@ -17,7 +17,13 @@
 						<img src="<?php echo get_template_directory_uri() . '/img/berkley-logo.png'; ?>" />
 					</div>
 					<div class="footer-caption col-md-7">
-						<?php echo get_theme_mod('left_footer_section', ''); ?>
+						<p class="text-left">
+							<span class="glyphicon glyphicon-globe"></span><a class="footer-contact-link" href="<?php echo get_theme_mod('left_footer_url', ''); ?>"><?php echo get_theme_mod('left_footer_url', ''); ?></a>
+							<br>
+							<span class="glyphicon glyphicon-phone"></span><?php echo get_theme_mod('left_footer_phone', ''); ?>
+							<br>
+							<span class="glyphicon glyphicon-envelope"></span><a class="footer-contact-link" href="mailto:<?php echo get_theme_mod('left_footer_email', ''); ?>"><?php echo get_theme_mod('left_footer_email', ''); ?></a>
+						</p>
 					</div>
 				</div>
 				<div class="right-footer col-md-6">
@@ -25,7 +31,13 @@
 						<img src="<?php echo get_template_directory_uri() . '/img/cndls-logo.png'; ?>" />
 					</div>
 					<div class="footer-caption col-md-7">
-						<?php echo get_theme_mod('right_footer_section', ''); ?>
+						<p class="text-left">
+							<span class="glyphicon glyphicon-globe"></span><a class="footer-contact-link" href="<?php echo get_theme_mod('right_footer_url', ''); ?>"><?php echo get_theme_mod('right_footer_url', ''); ?></a>
+							<br>
+							<span class="glyphicon glyphicon-phone"></span><?php echo get_theme_mod('right_footer_phone', ''); ?>
+							<br>
+							<span class="glyphicon glyphicon-envelope"></span><a class="footer-contact-link" href="mailto:<?php echo get_theme_mod('right_footer_email', ''); ?>"><?php echo get_theme_mod('right_footer_email', ''); ?></a>
+						</p>
 					</div>
 				</div>
 			</div>
