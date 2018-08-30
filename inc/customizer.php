@@ -35,11 +35,11 @@ function futures_customize_register($wp_customize)
 	// Header Tagline Setting and Control
 
 	$wp_customize->add_setting('header_tag', array(
-		'default' => 'Engaging Difference in Higher Education',
+		'default' => '',
 		'type' => 'theme_mod',
 	));
 	$wp_customize->add_control('header_tag', array(
-		'label' => __('Header Tag Line', 'futures') ,
+		'label' => 'Header Tag Line',
 		'type' => 'textarea',
 		'section' => 'header_options',
 		'priority' => 1
@@ -48,7 +48,7 @@ function futures_customize_register($wp_customize)
 	// Header Background Setting and Control
 
 	$wp_customize->add_setting('header_image', array(
-		'default' => get_template_directory_uri() . '/img/aerial.jpg',
+		'default' => '',
 		'type' => 'theme_mod',
 	));
 
